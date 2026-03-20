@@ -1,0 +1,1362 @@
+2026-03-19 11:24:22,603 [modules.audio_preprocessor] WARNING: noisereduce未安装，降噪功能不可用: pip install noisereduce
+2026-03-19 11:24:22,630 [fastapi] ERROR: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-03-19 11:26:30,947 [fastapi] ERROR: Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-03-19 11:27:52,130 [api] INFO: ============================================================
+2026-03-19 11:27:52,130 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 11:27:52,130 [api] INFO: ============================================================
+2026-03-19 11:27:52,130 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 11:27:52,130 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 11:27:52,131 [modules.asr_service] INFO: faster-whisper 不可用，使用原版 whisper
+2026-03-19 11:27:52,132 [api] ERROR: Whisper 加载失败: No module named 'whisper'
+2026-03-19 11:27:52,132 [api] INFO: 预加载 OCR 模型...
+2026-03-19 11:27:52,132 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 11:27:52,133 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 11:27:52,133 [api] INFO: ============================================================
+2026-03-19 11:27:52,133 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 11:27:52,133 [api] INFO: ============================================================
+2026-03-19 15:57:56,125 [modules.audio_preprocessor] WARNING: noisereduce未安装，降噪功能不可用: pip install noisereduce
+2026-03-19 15:57:56,171 [fastapi] ERROR: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-03-19 15:58:24,877 [modules.audio_preprocessor] WARNING: noisereduce未安装，降噪功能不可用: pip install noisereduce
+2026-03-19 15:58:24,907 [api] INFO: ============================================================
+2026-03-19 15:58:24,908 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 15:58:24,908 [api] INFO: ============================================================
+2026-03-19 15:58:24,908 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 15:58:24,908 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 15:58:24,908 [modules.asr_service] INFO: faster-whisper 不可用，使用原版 whisper
+2026-03-19 15:58:24,909 [api] ERROR: Whisper 加载失败: No module named 'whisper'
+2026-03-19 15:58:24,909 [api] INFO: 预加载 OCR 模型...
+2026-03-19 15:58:24,910 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 15:58:24,910 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 15:58:24,910 [api] INFO: ============================================================
+2026-03-19 15:58:24,910 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 15:58:24,910 [api] INFO: ============================================================
+2026-03-19 15:59:07,053 [modules.audio_preprocessor] WARNING: noisereduce未安装，降噪功能不可用: pip install noisereduce
+2026-03-19 15:59:07,081 [api] INFO: ============================================================
+2026-03-19 15:59:07,081 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 15:59:07,081 [api] INFO: ============================================================
+2026-03-19 15:59:07,081 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 15:59:07,081 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 15:59:07,082 [modules.asr_service] INFO: faster-whisper 不可用，使用原版 whisper
+2026-03-19 15:59:07,083 [api] ERROR: Whisper 加载失败: argument of type 'NoneType' is not iterable
+2026-03-19 15:59:07,083 [api] INFO: 预加载 OCR 模型...
+2026-03-19 15:59:07,084 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 15:59:07,085 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 15:59:07,085 [api] INFO: ============================================================
+2026-03-19 15:59:07,085 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 15:59:07,085 [api] INFO: ============================================================
+2026-03-19 16:00:42,487 [api] INFO: ============================================================
+2026-03-19 16:00:42,487 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:00:42,487 [api] INFO: ============================================================
+2026-03-19 16:00:42,487 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:00:42,487 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 16:00:42,488 [modules.asr_service] INFO: faster-whisper 不可用，使用原版 whisper
+2026-03-19 16:00:42,490 [api] ERROR: Whisper 加载失败: argument of type 'NoneType' is not iterable
+2026-03-19 16:00:42,490 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:00:42,490 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:00:42,491 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:00:42,491 [api] INFO: ============================================================
+2026-03-19 16:00:42,491 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:00:42,491 [api] INFO: ============================================================
+2026-03-19 16:03:44,974 [api] INFO: ============================================================
+2026-03-19 16:03:44,975 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:03:44,975 [api] INFO: ============================================================
+2026-03-19 16:03:44,975 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:03:44,975 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 16:03:50,395 [api] ERROR: Whisper 加载失败: Got: ConnectError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2026-03-19 16:03:50,395 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:03:50,396 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:03:50,397 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:03:50,397 [api] INFO: ============================================================
+2026-03-19 16:03:50,397 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:03:50,397 [api] INFO: ============================================================
+2026-03-19 16:04:07,211 [api] INFO: ============================================================
+2026-03-19 16:04:07,211 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:04:07,211 [api] INFO: ============================================================
+2026-03-19 16:04:07,211 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:04:07,211 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 16:04:28,605 [api] ERROR: Whisper 加载失败: Got: ConnectTimeout: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2026-03-19 16:04:28,606 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:04:28,608 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:04:28,609 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:04:28,610 [api] INFO: ============================================================
+2026-03-19 16:04:28,610 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:04:28,610 [api] INFO: ============================================================
+2026-03-19 16:06:26,945 [api] INFO: ============================================================
+2026-03-19 16:06:26,945 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:06:26,945 [api] INFO: ============================================================
+2026-03-19 16:06:26,945 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:06:26,945 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 16:06:48,304 [api] ERROR: Whisper 加载失败: Got: ConnectTimeout: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2026-03-19 16:06:48,304 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:06:48,305 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:06:48,306 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:06:48,306 [api] INFO: ============================================================
+2026-03-19 16:06:48,306 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:06:48,306 [api] INFO: ============================================================
+2026-03-19 16:08:04,018 [api] INFO: ============================================================
+2026-03-19 16:08:04,018 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:08:04,018 [api] INFO: ============================================================
+2026-03-19 16:08:04,018 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:08:04,018 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 16:08:04,823 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-03-19 16:08:05,116 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 16:08:05,175 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-medium/08e178d48790749d25932bbc082711ddcfdfbc4f/config.json "HTTP/1.1 200 OK"
+2026-03-19 16:08:05,237 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-medium/08e178d48790749d25932bbc082711ddcfdfbc4f/config.json "HTTP/1.1 200 OK"
+2026-03-19 16:08:05,255 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/model.bin "HTTP/1.1 302 Found"
+2026-03-19 16:08:05,290 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/vocabulary.txt "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 16:08:05,352 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-medium/08e178d48790749d25932bbc082711ddcfdfbc4f/vocabulary.txt "HTTP/1.1 200 OK"
+2026-03-19 16:08:05,512 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-medium/08e178d48790749d25932bbc082711ddcfdfbc4f/vocabulary.txt "HTTP/1.1 200 OK"
+2026-03-19 16:08:05,598 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 16:08:05,598 [huggingface_hub.utils._http] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-19 16:08:05,656 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-medium/08e178d48790749d25932bbc082711ddcfdfbc4f/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-19 16:08:05,717 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-medium/08e178d48790749d25932bbc082711ddcfdfbc4f/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-19 16:08:05,758 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/xet-read-token/08e178d48790749d25932bbc082711ddcfdfbc4f "HTTP/1.1 200 OK"
+2026-03-19 16:11:47,499 [api] INFO: ============================================================
+2026-03-19 16:11:47,499 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:11:47,499 [api] INFO: ============================================================
+2026-03-19 16:11:47,499 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:11:47,499 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 16:12:08,973 [api] ERROR: Whisper 加载失败: Unable to open file 'model.bin' in model 'C:\Users\咕咕\.cache\huggingface\hub\models--Systran--faster-whisper-medium\snapshots\08e178d48790749d25932bbc082711ddcfdfbc4f'
+2026-03-19 16:12:08,973 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:12:08,974 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:12:08,974 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:12:08,975 [api] INFO: ============================================================
+2026-03-19 16:12:08,975 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:12:08,975 [api] INFO: ============================================================
+2026-03-19 16:14:08,994 [api] INFO: ============================================================
+2026-03-19 16:14:08,994 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:14:08,995 [api] INFO: ============================================================
+2026-03-19 16:14:08,995 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:14:08,995 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 16:14:10,011 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/revision/main "HTTP/1.1 200 OK"
+2026-03-19 16:14:10,283 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/model.bin "HTTP/1.1 302 Found"
+2026-03-19 16:14:10,611 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-medium/xet-read-token/08e178d48790749d25932bbc082711ddcfdfbc4f "HTTP/1.1 200 OK"
+2026-03-19 16:19:41,628 [api] INFO: ============================================================
+2026-03-19 16:19:41,628 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:19:41,629 [api] INFO: ============================================================
+2026-03-19 16:19:41,629 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:19:41,629 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 16:19:47,067 [api] ERROR: Whisper 加载失败: Unable to open file 'model.bin' in model 'C:\Users\咕咕\.cache\huggingface\hub\models--Systran--faster-whisper-medium\snapshots\08e178d48790749d25932bbc082711ddcfdfbc4f'
+2026-03-19 16:19:47,068 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:19:47,068 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:19:47,069 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:19:47,069 [api] INFO: ============================================================
+2026-03-19 16:19:47,069 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:19:47,069 [api] INFO: ============================================================
+2026-03-19 16:21:34,302 [api] INFO: ============================================================
+2026-03-19 16:21:34,302 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:21:34,302 [api] INFO: ============================================================
+2026-03-19 16:21:34,302 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:21:34,303 [modules.asr_service] INFO: 正在加载 Whisper 模型: medium
+2026-03-19 16:21:39,754 [api] ERROR: Whisper 加载失败: Unable to open file 'model.bin' in model 'C:\Users\咕咕\.cache\huggingface\hub\models--Systran--faster-whisper-medium\snapshots\08e178d48790749d25932bbc082711ddcfdfbc4f'
+2026-03-19 16:21:39,754 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:21:39,755 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:21:39,756 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:21:39,756 [api] INFO: ============================================================
+2026-03-19 16:21:39,756 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:21:39,756 [api] INFO: ============================================================
+2026-03-19 16:24:27,662 [api] INFO: ============================================================
+2026-03-19 16:24:27,662 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:24:27,663 [api] INFO: ============================================================
+2026-03-19 16:24:27,663 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:24:27,663 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 16:24:33,007 [api] ERROR: Whisper 加载失败: Got: ConnectError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2026-03-19 16:24:33,008 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:24:33,008 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:24:33,009 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:24:33,009 [api] INFO: ============================================================
+2026-03-19 16:24:33,009 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:24:33,009 [api] INFO: ============================================================
+2026-03-19 16:25:00,453 [api] INFO: ============================================================
+2026-03-19 16:25:00,453 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:25:00,453 [api] INFO: ============================================================
+2026-03-19 16:25:00,453 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:25:00,453 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 16:25:05,780 [api] ERROR: Whisper 加载失败: Got: ConnectError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2026-03-19 16:25:05,780 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:25:05,781 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:25:05,783 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:25:05,783 [api] INFO: ============================================================
+2026-03-19 16:25:05,783 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:25:05,783 [api] INFO: ============================================================
+2026-03-19 16:30:05,409 [api] INFO: ============================================================
+2026-03-19 16:30:05,409 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:30:05,409 [api] INFO: ============================================================
+2026-03-19 16:30:05,409 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:30:05,409 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 16:30:26,769 [api] ERROR: Whisper 加载失败: Got: ConnectTimeout: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2026-03-19 16:30:26,769 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:30:30,192 [api] ERROR: OCR 加载失败: Unknown argument: drop_score
+2026-03-19 16:30:30,192 [api] INFO: ============================================================
+2026-03-19 16:30:30,192 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:30:30,192 [api] INFO: ============================================================
+2026-03-19 16:43:56,272 [api] INFO: ============================================================
+2026-03-19 16:43:56,272 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:43:56,272 [api] INFO: ============================================================
+2026-03-19 16:43:56,272 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:43:56,273 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 16:44:01,600 [api] ERROR: Whisper 加载失败: Got: ConnectError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2026-03-19 16:44:01,600 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:44:01,601 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:44:01,602 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:44:01,602 [api] INFO: ============================================================
+2026-03-19 16:44:01,602 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:44:01,602 [api] INFO: ============================================================
+2026-03-19 16:46:56,802 [api] INFO: ============================================================
+2026-03-19 16:46:56,803 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 16:46:56,803 [api] INFO: ============================================================
+2026-03-19 16:46:56,803 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 16:46:56,803 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 16:47:18,241 [api] ERROR: Whisper 加载失败: Got: ConnectTimeout: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2026-03-19 16:47:18,241 [api] INFO: 预加载 OCR 模型...
+2026-03-19 16:47:18,241 [modules.ocr_service] WARNING: PaddleOCR不可用，尝试EasyOCR
+2026-03-19 16:47:18,242 [api] ERROR: OCR 加载失败: 请安装OCR引擎: pip install paddlepaddle paddleocr 或 pip install easyocr
+2026-03-19 16:47:18,242 [api] INFO: ============================================================
+2026-03-19 16:47:18,242 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 16:47:18,242 [api] INFO: ============================================================
+2026-03-19 17:37:45,215 [api] INFO: ============================================================
+2026-03-19 17:37:45,215 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 17:37:45,215 [api] INFO: ============================================================
+2026-03-19 17:37:45,216 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 17:37:45,216 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 17:38:10,434 [api] ERROR: Whisper 加载失败: Got: ConnectTimeout: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2026-03-19 17:38:10,434 [api] INFO: 预加载 OCR 模型...
+2026-03-19 17:38:21,178 [api] ERROR: OCR 加载失败: Unknown argument: drop_score
+2026-03-19 17:38:21,178 [api] INFO: ============================================================
+2026-03-19 17:38:21,178 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 17:38:21,178 [api] INFO: ============================================================
+2026-03-19 17:42:53,125 [api] INFO: ============================================================
+2026-03-19 17:42:53,125 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 17:42:53,125 [api] INFO: ============================================================
+2026-03-19 17:42:53,125 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 17:42:53,125 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 17:42:59,221 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 17:42:59,546 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 17:42:59,615 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-small/536b0662742c02347bc0e980a01041f333bce120/config.json "HTTP/1.1 200 OK"
+2026-03-19 17:42:59,709 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/model.bin "HTTP/1.1 302 Found"
+2026-03-19 17:42:59,741 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-small/536b0662742c02347bc0e980a01041f333bce120/config.json "HTTP/1.1 200 OK"
+2026-03-19 17:43:00,065 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 17:43:00,127 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/xet-read-token/536b0662742c02347bc0e980a01041f333bce120 "HTTP/1.1 200 OK"
+2026-03-19 17:43:00,295 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-small/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-19 17:43:00,436 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-small/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-19 17:43:01,846 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 17:43:02,523 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-small/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt "HTTP/1.1 200 OK"
+2026-03-19 17:43:03,314 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-small/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt "HTTP/1.1 200 OK"
+2026-03-19 17:43:30,417 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 17:43:30,417 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 17:43:30,417 [api] INFO: 预加载 OCR 模型...
+2026-03-19 17:43:41,269 [api] ERROR: OCR 加载失败: Unknown argument: use_gpu
+2026-03-19 17:43:41,269 [api] INFO: ============================================================
+2026-03-19 17:43:41,269 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 17:43:41,269 [api] INFO: ============================================================
+2026-03-19 17:44:15,345 [api] INFO: ============================================================
+2026-03-19 17:44:15,345 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 17:44:15,345 [api] INFO: ============================================================
+2026-03-19 17:44:15,345 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 17:44:15,345 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 17:44:16,669 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 17:44:17,344 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 17:44:17,344 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 17:44:17,344 [api] INFO: 预加载 OCR 模型...
+2026-03-19 17:44:20,044 [api] ERROR: OCR 加载失败: Unknown argument: show_log
+2026-03-19 17:44:20,044 [api] INFO: ============================================================
+2026-03-19 17:44:20,044 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 17:44:20,044 [api] INFO: ============================================================
+2026-03-19 17:46:16,611 [api] INFO: ============================================================
+2026-03-19 17:46:16,611 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 17:46:16,612 [api] INFO: ============================================================
+2026-03-19 17:46:16,612 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 17:46:16,612 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 17:46:17,668 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 17:46:18,330 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 17:46:18,330 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 17:46:18,330 [api] INFO: 预加载 OCR 模型...
+2026-03-19 17:46:21,400 [api] ERROR: OCR 加载失败: Unknown argument: show_log
+2026-03-19 17:46:21,400 [api] INFO: ============================================================
+2026-03-19 17:46:21,400 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 17:46:21,400 [api] INFO: ============================================================
+2026-03-19 17:48:56,878 [api] INFO: [f4cc43f4] 收到验证请求: audio=recording.webm, image=QQ20260319-174803.png
+2026-03-19 17:48:56,880 [api] INFO: 保存文件: E:\OCR\uploads\f4cc43f4_audio.webm (74678 bytes)
+2026-03-19 17:48:56,882 [api] INFO: 保存文件: E:\OCR\uploads\f4cc43f4_image.png (3047 bytes)
+2026-03-19 17:48:56,882 [api] INFO: [f4cc43f4] 开始音频处理...
+2026-03-19 17:48:56,882 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\f4cc43f4_audio.webm
+2026-03-19 17:49:06,126 [api] ERROR: [f4cc43f4] 处理失败: 无法加载音频: 
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\core\audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\core\audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+              ^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening 'E:\\OCR\\uploads\\f4cc43f4_audio.webm': Format not recognised.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\OCR\modules\audio_preprocessor.py", line 131, in _load_audio
+    audio, sr = self.librosa.load(path, sr=None, mono=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\core\audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\decorator.py", line 235, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\util\decorators.py", line 63, in __wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\core\audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\audioread\__init__.py", line 131, in audio_open
+    raise NoBackendError()
+audioread.exceptions.NoBackendError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\OCR\api\server.py", line 138, in verify_student_id
+    processed_audio_path, audio_metadata = audio_preprocessor.process(audio_path)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\audio_preprocessor.py", line 61, in process
+    audio, sr = self._load_audio(audio_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\audio_preprocessor.py", line 134, in _load_audio
+    raise RuntimeError(f"无法加载音频: {e}")
+RuntimeError: 无法加载音频: 
+2026-03-19 17:59:14,167 [api] INFO: ============================================================
+2026-03-19 17:59:14,167 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 17:59:14,167 [api] INFO: ============================================================
+2026-03-19 17:59:14,167 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 17:59:14,167 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 17:59:20,249 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 17:59:20,249 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 17:59:20,249 [api] INFO: 预加载 OCR 模型...
+2026-03-19 17:59:22,717 [api] ERROR: OCR 加载失败: Unknown argument: show_log
+2026-03-19 17:59:22,717 [api] INFO: ============================================================
+2026-03-19 17:59:22,717 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 17:59:22,717 [api] INFO: ============================================================
+2026-03-19 18:00:02,738 [api] INFO: [3c9853a9] 收到验证请求: audio=recording.webm, image=QQ20260319-174803.png
+2026-03-19 18:00:02,738 [api] INFO: 保存文件: E:\OCR\uploads\3c9853a9_audio.webm (75644 bytes)
+2026-03-19 18:00:02,739 [api] INFO: 保存文件: E:\OCR\uploads\3c9853a9_image.png (3047 bytes)
+2026-03-19 18:00:02,739 [api] INFO: [3c9853a9] 开始音频处理...
+2026-03-19 18:00:02,739 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\3c9853a9_audio.webm
+2026-03-19 18:00:03,029 [api] ERROR: [3c9853a9] 处理失败: 无法加载音频: DLL load failed while importing _lzma: 找不到指定的模块。
+Traceback (most recent call last):
+  File "E:\OCR\modules\audio_preprocessor.py", line 131, in _load_audio
+    audio, sr = self.librosa.load(path, sr=None, mono=False)
+                ^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\lazy_loader\__init__.py", line 79, in __getattr__
+    attr = getattr(submod, name)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\lazy_loader\__init__.py", line 78, in __getattr__
+    submod = importlib.import_module(submod_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\core\audio.py", line 20, in <module>
+    from .convert import frames_to_samples, time_to_samples
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\core\convert.py", line 6, in <module>
+    from . import notation
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\core\notation.py", line 9, in <module>
+    from .intervals import INTERVALS
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\core\intervals.py", line 12, in <module>
+    from ..util.files import _resource_file
+  File "E:\Anaconda\envs\py311\Lib\site-packages\librosa\util\files.py", line 16, in <module>
+    import pooch
+  File "E:\Anaconda\envs\py311\Lib\site-packages\pooch\__init__.py", line 19, in <module>
+    from .processors import Unzip, Untar, Decompress
+  File "E:\Anaconda\envs\py311\Lib\site-packages\pooch\processors.py", line 16, in <module>
+    import lzma
+  File "E:\Anaconda\envs\py311\Lib\lzma.py", line 27, in <module>
+    from _lzma import *
+ImportError: DLL load failed while importing _lzma: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\OCR\api\server.py", line 138, in verify_student_id
+    processed_audio_path, audio_metadata = audio_preprocessor.process(audio_path)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\audio_preprocessor.py", line 61, in process
+    audio, sr = self._load_audio(audio_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\audio_preprocessor.py", line 134, in _load_audio
+    raise RuntimeError(f"无法加载音频: {e}")
+RuntimeError: 无法加载音频: DLL load failed while importing _lzma: 找不到指定的模块。
+2026-03-19 18:10:07,818 [api] INFO: ============================================================
+2026-03-19 18:10:07,818 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 18:10:07,818 [api] INFO: ============================================================
+2026-03-19 18:10:07,818 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 18:10:07,818 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 18:10:08,581 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 18:10:09,249 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 18:10:09,249 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 18:10:09,249 [api] INFO: 预加载 OCR 模型...
+2026-03-19 18:10:16,644 [modules.ocr_service] WARNING: PaddleOCR加载失败: [WinError 127] 找不到指定的程序。 Error loading "E:\Anaconda\envs\py311\Lib\site-packages\paddle\..\nvidia\cudnn\bin\cudnn_engines_runtime_compiled64_9.dll" or one of its dependencies.，尝试EasyOCR
+2026-03-19 18:10:16,645 [api] ERROR: OCR 加载失败: 请安装OCR引擎:
+  pip install paddlepaddle paddleocr
+  或 pip install easyocr
+2026-03-19 18:10:16,645 [api] INFO: ============================================================
+2026-03-19 18:10:16,645 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 18:10:16,645 [api] INFO: ============================================================
+2026-03-19 18:10:23,676 [api] INFO: [1995f18c] 收到验证请求: audio=recording.webm, image=QQ20260319-174803.png
+2026-03-19 18:10:23,677 [api] INFO: 保存文件: E:\OCR\uploads\1995f18c_audio.webm (75644 bytes)
+2026-03-19 18:10:23,677 [api] INFO: 保存文件: E:\OCR\uploads\1995f18c_image.png (3047 bytes)
+2026-03-19 18:10:23,677 [api] INFO: [1995f18c] 开始音频处理...
+2026-03-19 18:10:23,677 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\1995f18c_audio.webm
+2026-03-19 18:10:23,689 [api] ERROR: [1995f18c] 处理失败: 需要安装 ffmpeg！
+运行: conda install ffmpeg -c conda-forge
+Traceback (most recent call last):
+  File "E:\OCR\modules\audio_preprocessor.py", line 143, in _load_audio
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "E:\Anaconda\envs\py311\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\OCR\api\server.py", line 138, in verify_student_id
+    processed_audio_path, audio_metadata = audio_preprocessor.process(audio_path)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\audio_preprocessor.py", line 61, in process
+    audio, sr = self._load_audio(audio_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\audio_preprocessor.py", line 162, in _load_audio
+    raise RuntimeError(
+RuntimeError: 需要安装 ffmpeg！
+运行: conda install ffmpeg -c conda-forge
+2026-03-19 18:11:30,681 [api] INFO: ============================================================
+2026-03-19 18:11:30,682 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 18:11:30,682 [api] INFO: ============================================================
+2026-03-19 18:11:30,682 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 18:11:30,682 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 18:11:31,613 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 18:11:32,379 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 18:11:32,379 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 18:11:32,379 [api] INFO: 预加载 OCR 模型...
+2026-03-19 18:11:36,042 [modules.ocr_service] WARNING: PaddleOCR加载失败: [WinError 127] 找不到指定的程序。 Error loading "E:\Anaconda\envs\py311\Lib\site-packages\paddle\..\nvidia\cudnn\bin\cudnn_engines_runtime_compiled64_9.dll" or one of its dependencies.，尝试EasyOCR
+2026-03-19 18:11:36,043 [api] ERROR: OCR 加载失败: 请安装OCR引擎:
+  pip install paddlepaddle paddleocr
+  或 pip install easyocr
+2026-03-19 18:11:36,043 [api] INFO: ============================================================
+2026-03-19 18:11:36,043 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 18:11:36,043 [api] INFO: ============================================================
+2026-03-19 18:11:40,633 [api] INFO: [f7904e44] 收到验证请求: audio=recording.webm, image=QQ20260319-174803.png
+2026-03-19 18:11:40,634 [api] INFO: 保存文件: E:\OCR\uploads\f7904e44_audio.webm (75644 bytes)
+2026-03-19 18:11:40,634 [api] INFO: 保存文件: E:\OCR\uploads\f7904e44_image.png (3047 bytes)
+2026-03-19 18:11:40,634 [api] INFO: [f7904e44] 开始音频处理...
+2026-03-19 18:11:40,634 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\f7904e44_audio.webm
+2026-03-19 18:11:40,644 [api] ERROR: [f7904e44] 处理失败: 需要安装 ffmpeg！
+运行: conda install ffmpeg -c conda-forge
+Traceback (most recent call last):
+  File "E:\OCR\modules\audio_preprocessor.py", line 143, in _load_audio
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "E:\Anaconda\envs\py311\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\OCR\api\server.py", line 138, in verify_student_id
+    processed_audio_path, audio_metadata = audio_preprocessor.process(audio_path)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\audio_preprocessor.py", line 61, in process
+    audio, sr = self._load_audio(audio_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\audio_preprocessor.py", line 162, in _load_audio
+    raise RuntimeError(
+RuntimeError: 需要安装 ffmpeg！
+运行: conda install ffmpeg -c conda-forge
+2026-03-19 18:41:13,905 [api] INFO: ============================================================
+2026-03-19 18:41:13,905 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 18:41:13,905 [api] INFO: ============================================================
+2026-03-19 18:41:13,905 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 18:41:13,905 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 18:41:17,115 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 18:41:17,115 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 18:41:17,115 [api] INFO: 预加载 OCR 模型...
+2026-03-19 18:41:21,451 [modules.ocr_service] WARNING: PaddleOCR加载失败: [json.exception.parse_error.101] parse error at line 1, column 1: attempting to parse an empty input; check that your input string or stream contains the expected JSON，尝试EasyOCR
+2026-03-19 18:41:21,452 [api] ERROR: OCR 加载失败: 请安装OCR引擎:
+  pip install paddlepaddle paddleocr
+  或 pip install easyocr
+2026-03-19 18:41:21,452 [api] INFO: ============================================================
+2026-03-19 18:41:21,452 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 18:41:21,452 [api] INFO: ============================================================
+2026-03-19 18:42:11,872 [api] INFO: ============================================================
+2026-03-19 18:42:11,873 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 18:42:11,873 [api] INFO: ============================================================
+2026-03-19 18:42:11,873 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 18:42:11,873 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 18:42:14,997 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 18:42:14,997 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 18:42:14,997 [api] INFO: 预加载 OCR 模型...
+2026-03-19 18:42:22,242 [modules.ocr_service] WARNING: PaddleOCR加载失败: [json.exception.parse_error.101] parse error at line 1, column 1: attempting to parse an empty input; check that your input string or stream contains the expected JSON，尝试EasyOCR
+2026-03-19 18:42:22,242 [api] ERROR: OCR 加载失败: 请安装OCR引擎:
+  pip install paddlepaddle paddleocr
+  或 pip install easyocr
+2026-03-19 18:42:22,242 [api] INFO: ============================================================
+2026-03-19 18:42:22,242 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 18:42:22,242 [api] INFO: ============================================================
+2026-03-19 18:42:44,513 [api] INFO: ============================================================
+2026-03-19 18:42:44,513 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 18:42:44,513 [api] INFO: ============================================================
+2026-03-19 18:42:44,513 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 18:42:44,513 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 18:43:06,720 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 18:43:06,720 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 18:43:06,720 [api] INFO: 预加载 OCR 模型...
+2026-03-19 18:43:11,344 [modules.ocr_service] WARNING: PaddleOCR加载失败: [json.exception.parse_error.101] parse error at line 1, column 1: attempting to parse an empty input; check that your input string or stream contains the expected JSON，尝试EasyOCR
+2026-03-19 18:43:11,345 [api] ERROR: OCR 加载失败: 请安装OCR引擎:
+  pip install paddlepaddle paddleocr
+  或 pip install easyocr
+2026-03-19 18:43:11,345 [api] INFO: ============================================================
+2026-03-19 18:43:11,345 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 18:43:11,345 [api] INFO: ============================================================
+2026-03-19 18:45:30,259 [api] INFO: ============================================================
+2026-03-19 18:45:30,259 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 18:45:30,259 [api] INFO: ============================================================
+2026-03-19 18:45:30,259 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 18:45:30,259 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 18:45:31,722 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 18:45:32,385 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 18:45:32,385 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 18:45:32,385 [api] INFO: 预加载 OCR 模型...
+2026-03-19 18:45:37,042 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/revision/main "HTTP/1.1 200 OK"
+2026-03-19 18:45:37,495 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/PaddlePaddle/PP-LCNet_x1_0_doc_ori/resolve/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/inference.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 18:45:37,513 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/PaddlePaddle/PP-LCNet_x1_0_doc_ori/resolve/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/inference.yml "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 18:45:37,557 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/PaddlePaddle/PP-LCNet_x1_0_doc_ori/resolve/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/.gitattributes "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 18:45:37,559 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/PaddlePaddle/PP-LCNet_x1_0_doc_ori/resolve/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 18:45:37,586 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/inference.yml "HTTP/1.1 200 OK"
+2026-03-19 18:45:37,603 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/PaddlePaddle/PP-LCNet_x1_0_doc_ori/resolve/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/inference.pdiparams "HTTP/1.1 302 Found"
+2026-03-19 18:45:37,634 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/.gitattributes "HTTP/1.1 200 OK"
+2026-03-19 18:45:37,642 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/inference.json "HTTP/1.1 200 OK"
+2026-03-19 18:45:37,644 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/config.json "HTTP/1.1 200 OK"
+2026-03-19 18:45:37,660 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/inference.yml "HTTP/1.1 200 OK"
+2026-03-19 18:45:37,717 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/config.json "HTTP/1.1 200 OK"
+2026-03-19 18:45:37,731 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/inference.json "HTTP/1.1 200 OK"
+2026-03-19 18:45:37,737 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/.gitattributes "HTTP/1.1 200 OK"
+2026-03-19 18:45:37,918 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/PaddlePaddle/PP-LCNet_x1_0_doc_ori/resolve/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-19 18:45:37,933 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/xet-read-token/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8 "HTTP/1.1 200 OK"
+2026-03-19 18:45:38,040 [httpx] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/README.md "HTTP/1.1 200 OK"
+2026-03-19 18:45:38,124 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/PaddlePaddle/PP-LCNet_x1_0_doc_ori/d3b95a6dff5fe8a94f2748e12b61cb26818a0df8/README.md "HTTP/1.1 200 OK"
+2026-03-19 18:45:40,791 [modules.ocr_service] WARNING: PaddleOCR加载失败: [json.exception.parse_error.101] parse error at line 1, column 1: attempting to parse an empty input; check that your input string or stream contains the expected JSON，尝试EasyOCR
+2026-03-19 18:45:40,792 [api] ERROR: OCR 加载失败: 请安装OCR引擎:
+  pip install paddlepaddle paddleocr
+  或 pip install easyocr
+2026-03-19 18:45:40,792 [api] INFO: ============================================================
+2026-03-19 18:45:40,792 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 18:45:40,792 [api] INFO: ============================================================
+2026-03-19 18:46:33,863 [api] INFO: [2453a9d4] 收到验证请求: audio=recording.webm, image=QQ20260319-174803.png
+2026-03-19 18:46:33,864 [api] INFO: 保存文件: E:\OCR\uploads\2453a9d4_audio.webm (75644 bytes)
+2026-03-19 18:46:33,865 [api] INFO: 保存文件: E:\OCR\uploads\2453a9d4_image.png (3047 bytes)
+2026-03-19 18:46:33,865 [api] INFO: [2453a9d4] 开始音频处理...
+2026-03-19 18:46:33,865 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\2453a9d4_audio.webm
+2026-03-19 18:46:33,954 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 18:46:44,042 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 18:46:53,442 [modules.audio_preprocessor] INFO: 静音裁剪: 4.68s -> 2.94s
+2026-03-19 18:46:53,450 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=2.94s, 采样率=16000Hz
+2026-03-19 18:46:53,450 [api] INFO: [2453a9d4] 开始语音识别...
+2026-03-19 18:46:53,450 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\2453a9d4_audio_processed.wav
+2026-03-19 18:46:53,670 [faster_whisper] INFO: Processing audio with duration 00:02.944
+2026-03-19 18:46:53,941 [faster_whisper] INFO: VAD filter removed 00:01.136 of audio
+2026-03-19 18:46:54,020 [api] ERROR: [2453a9d4] 处理失败: Library cublas64_12.dll is not found or cannot be loaded
+Traceback (most recent call last):
+  File "E:\OCR\api\server.py", line 141, in verify_student_id
+    asr_result = asr_service.transcribe(processed_audio_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\asr_service.py", line 89, in transcribe
+    result = self._transcribe_faster(audio_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\asr_service.py", line 119, in _transcribe_faster
+    for seg in segments:
+  File "E:\Anaconda\envs\py311\Lib\site-packages\faster_whisper\transcribe.py", line 1851, in restore_speech_timestamps
+    for segment in segments:
+  File "E:\Anaconda\envs\py311\Lib\site-packages\faster_whisper\transcribe.py", line 1190, in generate_segments
+    encoder_output = self.encode(segment)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\faster_whisper\transcribe.py", line 1400, in encode
+    return self.model.encode(features, to_cpu=to_cpu)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Library cublas64_12.dll is not found or cannot be loaded
+2026-03-19 18:51:21,641 [api] INFO: ============================================================
+2026-03-19 18:51:21,641 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 18:51:21,641 [api] INFO: ============================================================
+2026-03-19 18:51:21,641 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 18:51:21,641 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 18:51:22,656 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 18:51:23,377 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 18:51:23,377 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 18:51:23,377 [api] INFO: 预加载 OCR 模型...
+2026-03-19 18:51:25,222 [easyocr.easyocr] WARNING: Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2026-03-19 18:51:29,941 [easyocr.easyocr] INFO: Download complete
+2026-03-19 18:51:29,941 [easyocr.easyocr] WARNING: Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2026-03-19 18:51:36,818 [easyocr.easyocr] INFO: Download complete.
+2026-03-19 18:51:37,876 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 18:51:37,876 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 18:51:37,876 [api] INFO: ============================================================
+2026-03-19 18:51:37,876 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 18:51:37,876 [api] INFO: ============================================================
+2026-03-19 18:51:48,515 [api] INFO: [4a0f4f42] 收到验证请求: audio=recording.webm, image=QQ20260319-174803.png
+2026-03-19 18:51:48,516 [api] INFO: 保存文件: E:\OCR\uploads\4a0f4f42_audio.webm (75644 bytes)
+2026-03-19 18:51:48,516 [api] INFO: 保存文件: E:\OCR\uploads\4a0f4f42_image.png (3047 bytes)
+2026-03-19 18:51:48,516 [api] INFO: [4a0f4f42] 开始音频处理...
+2026-03-19 18:51:48,516 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\4a0f4f42_audio.webm
+2026-03-19 18:51:48,604 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 18:51:49,700 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 18:51:52,085 [modules.audio_preprocessor] INFO: 静音裁剪: 4.68s -> 2.94s
+2026-03-19 18:51:52,089 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=2.94s, 采样率=16000Hz
+2026-03-19 18:51:52,089 [api] INFO: [4a0f4f42] 开始语音识别...
+2026-03-19 18:51:52,089 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\4a0f4f42_audio_processed.wav
+2026-03-19 18:51:52,217 [faster_whisper] INFO: Processing audio with duration 00:02.944
+2026-03-19 18:51:52,283 [faster_whisper] INFO: VAD filter removed 00:01.136 of audio
+2026-03-19 18:51:52,312 [api] ERROR: [4a0f4f42] 处理失败: Library cublas64_12.dll is not found or cannot be loaded
+Traceback (most recent call last):
+  File "E:\OCR\api\server.py", line 141, in verify_student_id
+    asr_result = asr_service.transcribe(processed_audio_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\asr_service.py", line 89, in transcribe
+    result = self._transcribe_faster(audio_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\asr_service.py", line 119, in _transcribe_faster
+    for seg in segments:
+  File "E:\Anaconda\envs\py311\Lib\site-packages\faster_whisper\transcribe.py", line 1851, in restore_speech_timestamps
+    for segment in segments:
+  File "E:\Anaconda\envs\py311\Lib\site-packages\faster_whisper\transcribe.py", line 1190, in generate_segments
+    encoder_output = self.encode(segment)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\faster_whisper\transcribe.py", line 1400, in encode
+    return self.model.encode(features, to_cpu=to_cpu)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Library cublas64_12.dll is not found or cannot be loaded
+2026-03-19 18:54:24,814 [api] INFO: ============================================================
+2026-03-19 18:54:24,814 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 18:54:24,814 [api] INFO: ============================================================
+2026-03-19 18:54:24,814 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 18:54:24,814 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 18:54:25,807 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 18:54:26,531 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cuda)
+2026-03-19 18:54:26,531 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 18:54:26,531 [api] INFO: 预加载 OCR 模型...
+2026-03-19 18:54:29,592 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 18:54:29,592 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 18:54:29,592 [api] INFO: ============================================================
+2026-03-19 18:54:29,592 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 18:54:29,592 [api] INFO: ============================================================
+2026-03-19 18:54:31,698 [api] INFO: [2ae48f1c] 收到验证请求: audio=recording.webm, image=QQ20260319-174803.png
+2026-03-19 18:54:31,698 [api] INFO: 保存文件: E:\OCR\uploads\2ae48f1c_audio.webm (75644 bytes)
+2026-03-19 18:54:31,699 [api] INFO: 保存文件: E:\OCR\uploads\2ae48f1c_image.png (3047 bytes)
+2026-03-19 18:54:31,699 [api] INFO: [2ae48f1c] 开始音频处理...
+2026-03-19 18:54:31,699 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\2ae48f1c_audio.webm
+2026-03-19 18:54:31,767 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 18:54:32,744 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 18:54:33,981 [modules.audio_preprocessor] INFO: 静音裁剪: 4.68s -> 2.94s
+2026-03-19 18:54:33,985 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=2.94s, 采样率=16000Hz
+2026-03-19 18:54:33,985 [api] INFO: [2ae48f1c] 开始语音识别...
+2026-03-19 18:54:33,985 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\2ae48f1c_audio_processed.wav
+2026-03-19 18:54:34,111 [faster_whisper] INFO: Processing audio with duration 00:02.944
+2026-03-19 18:54:34,174 [faster_whisper] INFO: VAD filter removed 00:01.136 of audio
+2026-03-19 18:54:34,247 [api] ERROR: [2ae48f1c] 处理失败: Library cublas64_12.dll is not found or cannot be loaded
+Traceback (most recent call last):
+  File "E:\OCR\api\server.py", line 141, in verify_student_id
+    asr_result = asr_service.transcribe(processed_audio_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\asr_service.py", line 89, in transcribe
+    result = self._transcribe_faster(audio_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\asr_service.py", line 119, in _transcribe_faster
+    for seg in segments:
+  File "E:\Anaconda\envs\py311\Lib\site-packages\faster_whisper\transcribe.py", line 1851, in restore_speech_timestamps
+    for segment in segments:
+  File "E:\Anaconda\envs\py311\Lib\site-packages\faster_whisper\transcribe.py", line 1190, in generate_segments
+    encoder_output = self.encode(segment)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\faster_whisper\transcribe.py", line 1400, in encode
+    return self.model.encode(features, to_cpu=to_cpu)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Library cublas64_12.dll is not found or cannot be loaded
+2026-03-19 18:56:05,433 [api] INFO: ============================================================
+2026-03-19 18:56:05,434 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 18:56:05,434 [api] INFO: ============================================================
+2026-03-19 18:56:05,434 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 18:56:05,434 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 18:56:06,388 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 18:56:07,142 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-19 18:56:07,142 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 18:56:07,142 [api] INFO: 预加载 OCR 模型...
+2026-03-19 18:56:10,063 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 18:56:10,063 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 18:56:10,063 [api] INFO: ============================================================
+2026-03-19 18:56:10,064 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 18:56:10,064 [api] INFO: ============================================================
+2026-03-19 18:56:16,012 [api] INFO: [59eb94a7] 收到验证请求: audio=recording.webm, image=QQ20260319-174803.png
+2026-03-19 18:56:16,013 [api] INFO: 保存文件: E:\OCR\uploads\59eb94a7_audio.webm (75644 bytes)
+2026-03-19 18:56:16,013 [api] INFO: 保存文件: E:\OCR\uploads\59eb94a7_image.png (3047 bytes)
+2026-03-19 18:56:16,013 [api] INFO: [59eb94a7] 开始音频处理...
+2026-03-19 18:56:16,013 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\59eb94a7_audio.webm
+2026-03-19 18:56:16,081 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 18:56:17,006 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 18:56:18,190 [modules.audio_preprocessor] INFO: 静音裁剪: 4.68s -> 2.94s
+2026-03-19 18:56:18,201 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=2.94s, 采样率=16000Hz
+2026-03-19 18:56:18,201 [api] INFO: [59eb94a7] 开始语音识别...
+2026-03-19 18:56:18,201 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\59eb94a7_audio_processed.wav
+2026-03-19 18:56:18,326 [faster_whisper] INFO: Processing audio with duration 00:02.944
+2026-03-19 18:56:18,396 [faster_whisper] INFO: VAD filter removed 00:01.136 of audio
+2026-03-19 18:56:20,488 [modules.asr_service] INFO: 转写结果: text='369852', id='369852'
+2026-03-19 18:56:20,488 [api] INFO: [59eb94a7] 开始图像处理...
+2026-03-19 18:56:20,488 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\59eb94a7_image.png
+2026-03-19 18:56:20,507 [modules.image_preprocessor] INFO: 放大图像: (132,68) -> (388,200)
+2026-03-19 18:56:20,593 [modules.image_preprocessor] INFO: 图像处理完成: (68, 132) -> (200, 388), 倾斜校正=-0.0°
+2026-03-19 18:56:20,593 [api] INFO: [59eb94a7] 开始OCR识别...
+2026-03-19 18:56:20,593 [modules.ocr_service] INFO: 开始OCR识别: C:\Users\咕咕\AppData\Local\Temp\59eb94a7_image_processed.png
+2026-03-19 18:56:20,594 [api] ERROR: [59eb94a7] 处理失败: No such file: 'C:\Users\咕咕\AppData\Local\Temp\59eb94a7_image_processed.png'
+Traceback (most recent call last):
+  File "E:\OCR\api\server.py", line 149, in verify_student_id
+    ocr_result = ocr_service.recognize(processed_image_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\ocr_service.py", line 90, in recognize
+    texts = self._recognize_easyocr(image_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\OCR\modules\ocr_service.py", line 137, in _recognize_easyocr
+    results = self.engine.readtext(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\easyocr\easyocr.py", line 454, in readtext
+    img, img_cv_grey = reformat_input(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\easyocr\utils.py", line 741, in reformat_input
+    img = loadImage(image)  # can accept URL
+          ^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\easyocr\imgproc.py", line 12, in loadImage
+    img = io.imread(img_file)           # RGB order
+          ^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\skimage\_shared\utils.py", line 386, in fixed_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\skimage\io\_io.py", line 82, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\skimage\_shared\utils.py", line 690, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\skimage\io\manage_plugins.py", line 254, in call_plugin
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\skimage\io\_plugins\imageio_plugin.py", line 11, in imread
+    out = np.asarray(imageio_imread(*args, **kwargs))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\imageio\v3.py", line 53, in imread
+    with imopen(uri, "r", **plugin_kwargs) as img_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\imageio\core\imopen.py", line 113, in imopen
+    request = Request(uri, io_mode, format_hint=format_hint, extension=extension)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\py311\Lib\site-packages\imageio\core\request.py", line 250, in __init__
+    self._parse_uri(uri)
+  File "E:\Anaconda\envs\py311\Lib\site-packages\imageio\core\request.py", line 410, in _parse_uri
+    raise FileNotFoundError("No such file: '%s'" % fn)
+FileNotFoundError: No such file: 'C:\Users\咕咕\AppData\Local\Temp\59eb94a7_image_processed.png'
+2026-03-19 19:01:06,262 [api] INFO: ============================================================
+2026-03-19 19:01:06,262 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 19:01:06,262 [api] INFO: ============================================================
+2026-03-19 19:01:06,262 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 19:01:06,262 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 19:01:07,324 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 19:01:08,026 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-19 19:01:08,026 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 19:01:08,026 [api] INFO: 预加载 OCR 模型...
+2026-03-19 19:01:11,021 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 19:01:11,022 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 19:01:11,022 [api] INFO: ============================================================
+2026-03-19 19:01:11,022 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 19:01:11,022 [api] INFO: ============================================================
+2026-03-19 19:03:50,520 [api] INFO: ============================================================
+2026-03-19 19:03:50,520 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 19:03:50,521 [api] INFO: ============================================================
+2026-03-19 19:03:50,521 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 19:03:50,521 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 19:03:51,437 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 19:03:52,172 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-19 19:03:52,172 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 19:03:52,172 [api] INFO: 预加载 OCR 模型...
+2026-03-19 19:03:55,075 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 19:03:55,075 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 19:03:55,075 [api] INFO: ============================================================
+2026-03-19 19:03:55,075 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 19:03:55,075 [api] INFO: ============================================================
+2026-03-19 19:03:58,746 [api] INFO: [c2067221] 收到验证请求: audio=recording.webm, image=QQ20260319-174803.png
+2026-03-19 19:03:58,746 [api] INFO: 保存文件: E:\OCR\uploads\c2067221_audio.webm (75644 bytes)
+2026-03-19 19:03:58,746 [api] INFO: 保存文件: E:\OCR\uploads\c2067221_image.png (3047 bytes)
+2026-03-19 19:03:58,746 [api] INFO: [c2067221] 开始音频处理...
+2026-03-19 19:03:58,746 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\c2067221_audio.webm
+2026-03-19 19:03:58,813 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:03:59,646 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:04:00,838 [modules.audio_preprocessor] INFO: 静音裁剪: 4.68s -> 2.94s
+2026-03-19 19:04:00,849 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=2.94s, 采样率=16000Hz
+2026-03-19 19:04:00,849 [api] INFO: [c2067221] 开始语音识别...
+2026-03-19 19:04:00,849 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\c2067221_audio_processed.wav
+2026-03-19 19:04:00,976 [faster_whisper] INFO: Processing audio with duration 00:02.944
+2026-03-19 19:04:01,044 [faster_whisper] INFO: VAD filter removed 00:01.136 of audio
+2026-03-19 19:04:03,226 [modules.asr_service] INFO: 转写结果: text='369852', id='369852'
+2026-03-19 19:04:03,226 [api] INFO: [c2067221] 开始图像处理...
+2026-03-19 19:04:03,226 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\c2067221_image.png
+2026-03-19 19:04:03,234 [modules.image_preprocessor] INFO: 放大图像: (132,68) -> (388,200)
+2026-03-19 19:04:03,319 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:04:03,319 [api] INFO: [c2067221] 开始OCR识别...
+2026-03-19 19:04:03,319 [modules.ocr_service] INFO: 开始OCR识别: C:\Users\咕咕\AppData\Local\Temp\c2067221_image_processed.png
+2026-03-19 19:04:03,320 [api] WARNING: [c2067221] 处理后图片不存在，用原图重试
+2026-03-19 19:04:03,320 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\c2067221_image.png
+2026-03-19 19:04:03,498 [modules.ocr_service] INFO: OCR结果: id='None', confidence=0.0000, 共识别 1 个文本块
+2026-03-19 19:04:03,498 [api] INFO: [c2067221] 开始匹配分析...
+2026-03-19 19:04:03,498 [modules.matching_engine] INFO: 开始匹配: ASR='369852' vs OCR=''
+2026-03-19 19:04:03,498 [api] INFO: [c2067221] 验证完成: verdict=ERROR, confidence=0.0000, time=4752ms
+2026-03-19 19:08:01,145 [api] INFO: [86d90886] 收到验证请求: audio=recording.webm, image=IMG_0294(20260319-190707).JPG
+2026-03-19 19:08:01,146 [api] INFO: 保存文件: E:\OCR\uploads\86d90886_audio.webm (80474 bytes)
+2026-03-19 19:08:01,148 [api] INFO: 保存文件: E:\OCR\uploads\86d90886_image.JPG (782601 bytes)
+2026-03-19 19:08:01,148 [api] INFO: [86d90886] 开始音频处理...
+2026-03-19 19:08:01,149 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\86d90886_audio.webm
+2026-03-19 19:08:01,226 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:08:01,328 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:08:01,330 [modules.audio_preprocessor] INFO: 静音裁剪: 4.98s -> 3.14s
+2026-03-19 19:08:01,336 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=3.14s, 采样率=16000Hz
+2026-03-19 19:08:01,336 [api] INFO: [86d90886] 开始语音识别...
+2026-03-19 19:08:01,336 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\86d90886_audio_processed.wav
+2026-03-19 19:08:01,514 [faster_whisper] INFO: Processing audio with duration 00:03.136
+2026-03-19 19:08:01,526 [faster_whisper] INFO: VAD filter removed 00:01.008 of audio
+2026-03-19 19:08:04,413 [modules.asr_service] INFO: 转写结果: text='985632147', id='985632147'
+2026-03-19 19:08:04,413 [api] INFO: [86d90886] 开始图像处理...
+2026-03-19 19:08:04,413 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\86d90886_image.JPG
+2026-03-19 19:08:04,467 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:08:04,467 [api] INFO: [86d90886] 开始OCR识别...
+2026-03-19 19:08:04,467 [modules.ocr_service] INFO: 开始OCR识别: C:\Users\咕咕\AppData\Local\Temp\86d90886_image_processed.png
+2026-03-19 19:08:04,468 [api] WARNING: [86d90886] 处理后图片不存在，用原图重试
+2026-03-19 19:08:04,468 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\86d90886_image.JPG
+2026-03-19 19:08:08,833 [modules.ocr_service] INFO: OCR结果: id='985632147', confidence=0.7368, 共识别 8 个文本块
+2026-03-19 19:08:08,833 [api] INFO: [86d90886] 开始匹配分析...
+2026-03-19 19:08:08,833 [modules.matching_engine] INFO: 开始匹配: ASR='985632147' vs OCR='985632147'
+2026-03-19 19:08:08,834 [api] INFO: [86d90886] 验证完成: verdict=MATCH, confidence=0.6243, time=7689ms
+2026-03-19 19:09:11,942 [api] INFO: [b5b682f7] 收到验证请求: audio=recording.webm, image=IMG_0294(20260319-190707).JPG
+2026-03-19 19:09:11,943 [api] INFO: 保存文件: E:\OCR\uploads\b5b682f7_audio.webm (80474 bytes)
+2026-03-19 19:09:11,943 [api] INFO: 保存文件: E:\OCR\uploads\b5b682f7_image.JPG (233425 bytes)
+2026-03-19 19:09:11,944 [api] INFO: [b5b682f7] 开始音频处理...
+2026-03-19 19:09:11,944 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\b5b682f7_audio.webm
+2026-03-19 19:09:12,006 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:09:12,051 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:09:12,052 [modules.audio_preprocessor] INFO: 静音裁剪: 4.98s -> 3.14s
+2026-03-19 19:09:12,056 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=3.14s, 采样率=16000Hz
+2026-03-19 19:09:12,056 [api] INFO: [b5b682f7] 开始语音识别...
+2026-03-19 19:09:12,056 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\b5b682f7_audio_processed.wav
+2026-03-19 19:09:12,191 [faster_whisper] INFO: Processing audio with duration 00:03.136
+2026-03-19 19:09:12,197 [faster_whisper] INFO: VAD filter removed 00:01.008 of audio
+2026-03-19 19:09:14,246 [modules.asr_service] INFO: 转写结果: text='985632147', id='985632147'
+2026-03-19 19:09:14,247 [api] INFO: [b5b682f7] 开始图像处理...
+2026-03-19 19:09:14,247 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\b5b682f7_image.JPG
+2026-03-19 19:09:14,270 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:09:14,270 [api] INFO: [b5b682f7] 开始OCR识别...
+2026-03-19 19:09:14,270 [modules.ocr_service] INFO: 开始OCR识别: C:\Users\咕咕\AppData\Local\Temp\b5b682f7_image_processed.png
+2026-03-19 19:09:14,271 [api] WARNING: [b5b682f7] 处理后图片不存在，用原图重试
+2026-03-19 19:09:14,271 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\b5b682f7_image.JPG
+2026-03-19 19:09:15,538 [modules.ocr_service] INFO: OCR结果: id='985632147', confidence=0.8771, 共识别 1 个文本块
+2026-03-19 19:09:15,539 [api] INFO: [b5b682f7] 开始匹配分析...
+2026-03-19 19:09:15,539 [modules.matching_engine] INFO: 开始匹配: ASR='985632147' vs OCR='985632147'
+2026-03-19 19:09:15,539 [api] INFO: [b5b682f7] 验证完成: verdict=MATCH, confidence=0.6243, time=3596ms
+2026-03-19 19:19:47,030 [api] INFO: ============================================================
+2026-03-19 19:19:47,030 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 19:19:47,030 [api] INFO: ============================================================
+2026-03-19 19:19:47,030 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 19:19:47,030 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 19:19:54,790 [api] INFO: ============================================================
+2026-03-19 19:19:54,790 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 19:19:54,790 [api] INFO: ============================================================
+2026-03-19 19:19:54,790 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 19:19:54,790 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 19:19:56,267 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 19:19:56,977 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-19 19:19:56,977 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 19:19:56,977 [api] INFO: 预加载 OCR 模型...
+2026-03-19 19:19:59,824 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 19:19:59,824 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 19:19:59,824 [api] INFO: ============================================================
+2026-03-19 19:19:59,824 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 19:19:59,825 [api] INFO: ============================================================
+2026-03-19 19:20:07,049 [api] INFO: [6cd39115] 收到验证请求: audio=recording.webm, image=IMG_0294(20260319-190707).JPG
+2026-03-19 19:20:07,049 [api] INFO: 保存文件: E:\OCR\uploads\6cd39115_audio.webm (80474 bytes)
+2026-03-19 19:20:07,050 [api] INFO: 保存文件: E:\OCR\uploads\6cd39115_image.JPG (233425 bytes)
+2026-03-19 19:20:07,050 [api] INFO: [6cd39115] 开始音频处理...
+2026-03-19 19:20:07,050 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\6cd39115_audio.webm
+2026-03-19 19:20:07,123 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:20:07,961 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:20:09,267 [modules.audio_preprocessor] INFO: 静音裁剪: 4.98s -> 3.14s
+2026-03-19 19:20:09,278 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=3.14s, 采样率=16000Hz
+2026-03-19 19:20:09,278 [api] INFO: [6cd39115] 开始语音识别...
+2026-03-19 19:20:09,278 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\6cd39115_audio_processed.wav
+2026-03-19 19:20:09,408 [faster_whisper] INFO: Processing audio with duration 00:03.136
+2026-03-19 19:20:09,479 [faster_whisper] INFO: VAD filter removed 00:01.008 of audio
+2026-03-19 19:20:11,744 [modules.asr_service] INFO: 转写结果: text='985632147', id='985632147'
+2026-03-19 19:20:11,744 [api] INFO: [6cd39115] 开始图像处理...
+2026-03-19 19:20:11,744 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\6cd39115_image.JPG
+2026-03-19 19:20:11,859 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:20:11,860 [api] INFO: [6cd39115] 开始OCR识别...
+2026-03-19 19:20:11,860 [modules.ocr_service] INFO: 开始OCR识别: C:\Users\咕咕\AppData\Local\Temp\6cd39115_image_processed.png
+2026-03-19 19:20:11,861 [api] WARNING: [6cd39115] 处理后图片不存在，用原图重试
+2026-03-19 19:20:11,861 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\6cd39115_image.JPG
+2026-03-19 19:20:13,145 [modules.ocr_service] INFO: OCR结果: id='985632147', confidence=0.8771, 共识别 1 个文本块
+2026-03-19 19:20:13,145 [api] INFO: [6cd39115] 开始匹配分析...
+2026-03-19 19:20:13,145 [modules.matching_engine] INFO: 开始匹配: ASR='985632147' vs OCR='985632147'
+2026-03-19 19:20:13,146 [api] INFO: [6cd39115] 验证完成: verdict=MATCH, confidence=0.6243, time=6097ms
+2026-03-19 19:21:22,102 [api] INFO: ============================================================
+2026-03-19 19:21:22,102 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 19:21:22,102 [api] INFO: ============================================================
+2026-03-19 19:21:22,102 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 19:21:22,102 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 19:21:23,291 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 19:21:24,003 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-19 19:21:24,003 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 19:21:24,003 [api] INFO: 预加载 OCR 模型...
+2026-03-19 19:21:26,899 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 19:21:26,899 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 19:21:26,899 [api] INFO: ============================================================
+2026-03-19 19:21:26,900 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 19:21:26,900 [api] INFO: ============================================================
+2026-03-19 19:21:30,527 [api] INFO: [22a517a9] 收到验证请求: audio=recording.webm, image=IMG_0294(20260319-190707).JPG
+2026-03-19 19:21:30,527 [api] INFO: 保存文件: E:\OCR\uploads\22a517a9_audio.webm (80474 bytes)
+2026-03-19 19:21:30,528 [api] INFO: 保存文件: E:\OCR\uploads\22a517a9_image.JPG (233425 bytes)
+2026-03-19 19:21:30,528 [api] INFO: [22a517a9] 开始音频处理...
+2026-03-19 19:21:30,528 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\22a517a9_audio.webm
+2026-03-19 19:21:30,592 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:21:31,475 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:21:32,675 [modules.audio_preprocessor] INFO: 静音裁剪: 4.98s -> 3.14s
+2026-03-19 19:21:32,685 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=3.14s, 采样率=16000Hz
+2026-03-19 19:21:32,685 [api] INFO: [22a517a9] 开始语音识别...
+2026-03-19 19:21:32,685 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\22a517a9_audio_processed.wav
+2026-03-19 19:21:32,814 [faster_whisper] INFO: Processing audio with duration 00:03.136
+2026-03-19 19:21:32,878 [faster_whisper] INFO: VAD filter removed 00:01.008 of audio
+2026-03-19 19:21:35,118 [modules.asr_service] INFO: 转写结果: text='985632147', id='985632147'
+2026-03-19 19:21:35,118 [api] INFO: [22a517a9] 开始图像处理...
+2026-03-19 19:21:35,118 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\22a517a9_image.JPG
+2026-03-19 19:21:35,231 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:21:35,231 [api] INFO: [22a517a9] 开始OCR识别...
+2026-03-19 19:21:35,231 [modules.ocr_service] INFO: 开始OCR识别: C:\Users\咕咕\AppData\Local\Temp\22a517a9_image_processed.png
+2026-03-19 19:21:35,232 [api] WARNING: [22a517a9] 处理后图片不存在，用原图重试
+2026-03-19 19:21:35,232 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\22a517a9_image.JPG
+2026-03-19 19:21:36,515 [modules.ocr_service] INFO: OCR结果: id='985632147', confidence=0.8771, 共识别 1 个文本块
+2026-03-19 19:21:36,515 [api] INFO: [22a517a9] 开始匹配分析...
+2026-03-19 19:21:36,515 [modules.matching_engine] INFO: 开始匹配: ASR='985632147' vs OCR='985632147'
+2026-03-19 19:21:36,515 [api] INFO: [22a517a9] 验证完成: verdict=MATCH, confidence=0.6243, time=5987ms
+2026-03-19 19:36:04,924 [api] INFO: ============================================================
+2026-03-19 19:36:04,924 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 19:36:04,924 [api] INFO: ============================================================
+2026-03-19 19:36:04,924 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 19:36:04,925 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 19:36:05,891 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 19:36:06,592 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-19 19:36:06,592 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 19:36:06,592 [api] INFO: 预加载 OCR 模型...
+2026-03-19 19:36:09,454 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 19:36:09,454 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 19:36:09,455 [api] INFO: ============================================================
+2026-03-19 19:36:09,455 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 19:36:09,455 [api] INFO: ============================================================
+2026-03-19 19:36:13,995 [api] INFO: [77172c0a] 收到验证请求: audio=recording.webm, image=IMG_0294(20260319-190707).JPG
+2026-03-19 19:36:13,996 [api] INFO: 保存文件: E:\OCR\uploads\77172c0a_audio.webm (80474 bytes)
+2026-03-19 19:36:13,996 [api] INFO: 保存文件: E:\OCR\uploads\77172c0a_image.JPG (233425 bytes)
+2026-03-19 19:36:13,996 [api] INFO: [77172c0a] 开始音频处理...
+2026-03-19 19:36:13,996 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\77172c0a_audio.webm
+2026-03-19 19:36:14,059 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:36:14,992 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:36:16,199 [modules.audio_preprocessor] INFO: 静音裁剪: 4.98s -> 3.14s
+2026-03-19 19:36:16,210 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=3.14s, 采样率=16000Hz
+2026-03-19 19:36:16,210 [api] INFO: [77172c0a] 开始语音识别...
+2026-03-19 19:36:16,210 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\77172c0a_audio_processed.wav
+2026-03-19 19:36:16,343 [faster_whisper] INFO: Processing audio with duration 00:03.136
+2026-03-19 19:36:16,418 [faster_whisper] INFO: VAD filter removed 00:01.008 of audio
+2026-03-19 19:36:18,455 [modules.asr_service] INFO: 转写结果: text='985632147', id='985632147'
+2026-03-19 19:36:18,455 [api] INFO: [77172c0a] 开始图像处理...
+2026-03-19 19:36:18,455 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\77172c0a_image.JPG
+2026-03-19 19:36:18,588 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\77172c0a_image_processed.png
+2026-03-19 19:36:18,588 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:36:18,588 [api] INFO: [77172c0a] 开始OCR识别...
+2026-03-19 19:36:18,588 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\77172c0a_image_processed.png
+2026-03-19 19:36:19,920 [modules.ocr_service] INFO: OCR结果: id='985632147', confidence=0.6962, 共识别 1 个文本块
+2026-03-19 19:36:19,921 [api] INFO: [77172c0a] 开始匹配分析...
+2026-03-19 19:36:19,921 [modules.matching_engine] INFO: 开始匹配: ASR='985632147' vs OCR='985632147'
+2026-03-19 19:36:19,921 [api] INFO: [77172c0a] 验证完成: verdict=MATCH, confidence=0.6243, time=5925ms
+2026-03-19 19:38:55,321 [api] INFO: [51a8e539] 收到验证请求: audio=recording.webm, image=IMG_0295.JPG
+2026-03-19 19:38:55,322 [api] INFO: 保存文件: E:\OCR\uploads\51a8e539_audio.webm (122978 bytes)
+2026-03-19 19:38:55,324 [api] INFO: 保存文件: E:\OCR\uploads\51a8e539_image.JPG (1619466 bytes)
+2026-03-19 19:38:55,324 [api] INFO: [51a8e539] 开始音频处理...
+2026-03-19 19:38:55,324 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\51a8e539_audio.webm
+2026-03-19 19:38:55,401 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:38:55,457 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:38:55,458 [modules.audio_preprocessor] INFO: 静音裁剪: 7.62s -> 5.22s
+2026-03-19 19:38:55,463 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=5.22s, 采样率=16000Hz
+2026-03-19 19:38:55,463 [api] INFO: [51a8e539] 开始语音识别...
+2026-03-19 19:38:55,463 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\51a8e539_audio_processed.wav
+2026-03-19 19:38:55,603 [faster_whisper] INFO: Processing audio with duration 00:05.216
+2026-03-19 19:38:55,612 [faster_whisper] INFO: VAD filter removed 00:01.392 of audio
+2026-03-19 19:38:57,970 [modules.asr_service] INFO: 转写结果: text='20179029。', id='20179029'
+2026-03-19 19:38:57,970 [api] INFO: [51a8e539] 开始图像处理...
+2026-03-19 19:38:57,970 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\51a8e539_image.JPG
+2026-03-19 19:38:58,034 [modules.image_preprocessor] INFO: 缩小图像: (4032,3024) -> (2000,1500)
+2026-03-19 19:38:58,197 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\51a8e539_image_processed.png
+2026-03-19 19:38:58,198 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:38:58,198 [api] INFO: [51a8e539] 开始OCR识别...
+2026-03-19 19:38:58,198 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\51a8e539_image_processed.png
+2026-03-19 19:39:05,853 [modules.ocr_service] INFO: OCR结果: id='20179029', confidence=0.9999, 共识别 3 个文本块
+2026-03-19 19:39:05,854 [api] INFO: [51a8e539] 开始匹配分析...
+2026-03-19 19:39:05,854 [modules.matching_engine] INFO: 开始匹配: ASR='20179029' vs OCR='20179029'
+2026-03-19 19:39:05,854 [api] INFO: [51a8e539] 验证完成: verdict=MATCH, confidence=0.6381, time=10532ms
+2026-03-19 19:39:33,799 [api] INFO: [d53ae714] 收到验证请求: audio=recording.webm, image=IMG_0295.JPG
+2026-03-19 19:39:33,800 [api] INFO: 保存文件: E:\OCR\uploads\d53ae714_audio.webm (104624 bytes)
+2026-03-19 19:39:33,801 [api] INFO: 保存文件: E:\OCR\uploads\d53ae714_image.JPG (1619466 bytes)
+2026-03-19 19:39:33,801 [api] INFO: [d53ae714] 开始音频处理...
+2026-03-19 19:39:33,802 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\d53ae714_audio.webm
+2026-03-19 19:39:33,890 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:39:33,956 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:39:33,958 [modules.audio_preprocessor] INFO: 静音裁剪: 6.48s -> 4.86s
+2026-03-19 19:39:33,962 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=4.86s, 采样率=16000Hz
+2026-03-19 19:39:33,962 [api] INFO: [d53ae714] 开始语音识别...
+2026-03-19 19:39:33,962 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\d53ae714_audio_processed.wav
+2026-03-19 19:39:34,099 [faster_whisper] INFO: Processing audio with duration 00:04.864
+2026-03-19 19:39:34,107 [faster_whisper] INFO: VAD filter removed 00:00.912 of audio
+2026-03-19 19:39:36,479 [modules.asr_service] INFO: 转写结果: text='20179029。', id='20179029'
+2026-03-19 19:39:36,479 [api] INFO: [d53ae714] 开始图像处理...
+2026-03-19 19:39:36,479 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\d53ae714_image.JPG
+2026-03-19 19:39:36,543 [modules.image_preprocessor] INFO: 缩小图像: (4032,3024) -> (2000,1500)
+2026-03-19 19:39:36,698 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\d53ae714_image_processed.png
+2026-03-19 19:39:36,698 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:39:36,698 [api] INFO: [d53ae714] 开始OCR识别...
+2026-03-19 19:39:36,698 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\d53ae714_image_processed.png
+2026-03-19 19:39:43,407 [modules.ocr_service] INFO: OCR结果: id='20179029', confidence=0.9999, 共识别 3 个文本块
+2026-03-19 19:39:43,407 [api] INFO: [d53ae714] 开始匹配分析...
+2026-03-19 19:39:43,408 [modules.matching_engine] INFO: 开始匹配: ASR='20179029' vs OCR='20179029'
+2026-03-19 19:39:43,408 [api] INFO: [d53ae714] 验证完成: verdict=MATCH, confidence=0.6211, time=9609ms
+2026-03-19 19:40:57,927 [api] INFO: [264eb052] 收到验证请求: audio=recording.webm, image=IMG_0295.JPG
+2026-03-19 19:40:57,927 [api] INFO: 保存文件: E:\OCR\uploads\264eb052_audio.webm (71780 bytes)
+2026-03-19 19:40:57,929 [api] INFO: 保存文件: E:\OCR\uploads\264eb052_image.JPG (1619466 bytes)
+2026-03-19 19:40:57,929 [api] INFO: [264eb052] 开始音频处理...
+2026-03-19 19:40:57,929 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\264eb052_audio.webm
+2026-03-19 19:40:58,007 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:40:58,058 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:40:58,059 [modules.audio_preprocessor] INFO: 静音裁剪: 4.44s -> 2.82s
+2026-03-19 19:40:58,063 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=2.82s, 采样率=16000Hz
+2026-03-19 19:40:58,063 [api] INFO: [264eb052] 开始语音识别...
+2026-03-19 19:40:58,063 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\264eb052_audio_processed.wav
+2026-03-19 19:40:58,193 [faster_whisper] INFO: Processing audio with duration 00:02.816
+2026-03-19 19:40:58,198 [faster_whisper] INFO: VAD filter removed 00:00.752 of audio
+2026-03-19 19:41:00,819 [modules.asr_service] INFO: 转写结果: text='1、2、3、4、6、4、5、2、1', id='123464521'
+2026-03-19 19:41:00,819 [api] INFO: [264eb052] 开始图像处理...
+2026-03-19 19:41:00,819 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\264eb052_image.JPG
+2026-03-19 19:41:00,880 [modules.image_preprocessor] INFO: 缩小图像: (4032,3024) -> (2000,1500)
+2026-03-19 19:41:01,039 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\264eb052_image_processed.png
+2026-03-19 19:41:01,039 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:41:01,040 [api] INFO: [264eb052] 开始OCR识别...
+2026-03-19 19:41:01,040 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\264eb052_image_processed.png
+2026-03-19 19:41:07,557 [modules.ocr_service] INFO: OCR结果: id='20179029', confidence=0.9999, 共识别 3 个文本块
+2026-03-19 19:41:07,557 [api] INFO: [264eb052] 开始匹配分析...
+2026-03-19 19:41:07,558 [modules.matching_engine] INFO: 开始匹配: ASR='123464521' vs OCR='20179029'
+2026-03-19 19:41:07,558 [api] INFO: [264eb052] 验证完成: verdict=NO_MATCH, confidence=0.7647, time=9631ms
+2026-03-19 19:41:57,713 [api] INFO: ============================================================
+2026-03-19 19:41:57,714 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 19:41:57,714 [api] INFO: ============================================================
+2026-03-19 19:41:57,714 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 19:41:57,714 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 19:41:58,631 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 19:41:59,340 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-19 19:41:59,340 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 19:41:59,340 [api] INFO: 预加载 OCR 模型...
+2026-03-19 19:42:02,194 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 19:42:02,195 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 19:42:02,195 [api] INFO: ============================================================
+2026-03-19 19:42:02,195 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 19:42:02,195 [api] INFO: ============================================================
+2026-03-19 19:46:05,100 [api] INFO: [26378e6f] 收到验证请求: audio=recording.webm, image=IMG_0296.JPG
+2026-03-19 19:46:05,100 [api] INFO: 保存文件: E:\OCR\uploads\26378e6f_audio.webm (118148 bytes)
+2026-03-19 19:46:05,102 [api] INFO: 保存文件: E:\OCR\uploads\26378e6f_image.JPG (2017654 bytes)
+2026-03-19 19:46:05,102 [api] INFO: [26378e6f] 开始音频处理...
+2026-03-19 19:46:05,102 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\26378e6f_audio.webm
+2026-03-19 19:46:05,176 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:46:06,143 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:46:07,464 [modules.audio_preprocessor] INFO: 静音裁剪: 7.32s -> 4.93s
+2026-03-19 19:46:07,469 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=4.93s, 采样率=16000Hz
+2026-03-19 19:46:07,469 [api] INFO: [26378e6f] 开始语音识别...
+2026-03-19 19:46:07,469 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\26378e6f_audio_processed.wav
+2026-03-19 19:46:07,607 [faster_whisper] INFO: Processing audio with duration 00:04.928
+2026-03-19 19:46:07,686 [faster_whisper] INFO: VAD filter removed 00:01.008 of audio
+2026-03-19 19:46:10,592 [modules.asr_service] INFO: 转写结果: text='SG2025002172。', id='G2025002172'
+2026-03-19 19:46:10,592 [api] INFO: [26378e6f] 开始图像处理...
+2026-03-19 19:46:10,592 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\26378e6f_image.JPG
+2026-03-19 19:46:10,666 [modules.image_preprocessor] INFO: 缩小图像: (4032,3024) -> (2000,1500)
+2026-03-19 19:46:10,928 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\26378e6f_image_processed.png
+2026-03-19 19:46:10,928 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:46:10,928 [api] INFO: [26378e6f] 开始OCR识别...
+2026-03-19 19:46:10,929 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\26378e6f_image_processed.png
+2026-03-19 19:46:18,170 [modules.ocr_service] INFO: OCR结果: id='12025002172', confidence=0.4775, 共识别 9 个文本块
+2026-03-19 19:46:18,170 [api] INFO: [26378e6f] 开始匹配分析...
+2026-03-19 19:46:18,170 [modules.matching_engine] INFO: 开始匹配: ASR='G2025002172' vs OCR='12025002172'
+2026-03-19 19:46:18,170 [api] INFO: [26378e6f] 验证完成: verdict=PROBABLE_MATCH, confidence=0.3690, time=13070ms
+2026-03-19 19:48:33,605 [api] INFO: [8c359a62] 收到验证请求: audio=recording.webm, image=IMG_0296.JPG
+2026-03-19 19:48:33,607 [api] INFO: 保存文件: E:\OCR\uploads\8c359a62_audio.webm (118148 bytes)
+2026-03-19 19:48:33,609 [api] INFO: 保存文件: E:\OCR\uploads\8c359a62_image.JPG (398291 bytes)
+2026-03-19 19:48:33,609 [api] INFO: [8c359a62] 开始音频处理...
+2026-03-19 19:48:33,609 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\8c359a62_audio.webm
+2026-03-19 19:48:33,691 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:48:33,794 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:48:33,795 [modules.audio_preprocessor] INFO: 静音裁剪: 7.32s -> 4.93s
+2026-03-19 19:48:33,801 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=4.93s, 采样率=16000Hz
+2026-03-19 19:48:33,801 [api] INFO: [8c359a62] 开始语音识别...
+2026-03-19 19:48:33,802 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\8c359a62_audio_processed.wav
+2026-03-19 19:48:33,990 [faster_whisper] INFO: Processing audio with duration 00:04.928
+2026-03-19 19:48:34,009 [faster_whisper] INFO: VAD filter removed 00:01.008 of audio
+2026-03-19 19:48:37,137 [modules.asr_service] INFO: 转写结果: text='SG2025002172。', id='G2025002172'
+2026-03-19 19:48:37,137 [api] INFO: [8c359a62] 开始图像处理...
+2026-03-19 19:48:37,137 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\8c359a62_image.JPG
+2026-03-19 19:48:37,270 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\8c359a62_image_processed.png
+2026-03-19 19:48:37,270 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:48:37,271 [api] INFO: [8c359a62] 开始OCR识别...
+2026-03-19 19:48:37,271 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\8c359a62_image_processed.png
+2026-03-19 19:48:42,248 [modules.ocr_service] INFO: OCR结果: id='12025002172', confidence=0.4438, 共识别 11 个文本块
+2026-03-19 19:48:42,248 [api] INFO: [8c359a62] 开始匹配分析...
+2026-03-19 19:48:42,248 [modules.matching_engine] INFO: 开始匹配: ASR='G2025002172' vs OCR='12025002172'
+2026-03-19 19:48:42,248 [api] INFO: [8c359a62] 验证完成: verdict=PROBABLE_MATCH, confidence=0.3429, time=8642ms
+2026-03-19 19:52:58,255 [api] INFO: [b27eaa0c] 收到验证请求: audio=recording.webm, image=xuehao.png
+2026-03-19 19:52:58,257 [api] INFO: 保存文件: E:\OCR\uploads\b27eaa0c_audio.webm (152924 bytes)
+2026-03-19 19:52:58,259 [api] INFO: 保存文件: E:\OCR\uploads\b27eaa0c_image.png (5047 bytes)
+2026-03-19 19:52:58,259 [api] INFO: [b27eaa0c] 开始音频处理...
+2026-03-19 19:52:58,259 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\b27eaa0c_audio.webm
+2026-03-19 19:52:58,352 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:52:58,508 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:52:58,511 [modules.audio_preprocessor] INFO: 静音裁剪: 9.48s -> 7.87s
+2026-03-19 19:52:58,518 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=7.87s, 采样率=16000Hz
+2026-03-19 19:52:58,518 [api] INFO: [b27eaa0c] 开始语音识别...
+2026-03-19 19:52:58,518 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\b27eaa0c_audio_processed.wav
+2026-03-19 19:52:58,719 [faster_whisper] INFO: Processing audio with duration 00:07.872
+2026-03-19 19:52:58,747 [faster_whisper] INFO: VAD filter removed 00:01.280 of audio
+2026-03-19 19:53:04,552 [modules.asr_service] INFO: 转写结果: text='S21252401、大包机乳8。', id='S21252401'
+2026-03-19 19:53:04,552 [api] INFO: [b27eaa0c] 开始图像处理...
+2026-03-19 19:53:04,552 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\b27eaa0c_image.png
+2026-03-19 19:53:04,563 [modules.image_preprocessor] INFO: 放大图像: (387,76) -> (1018,200)
+2026-03-19 19:53:04,571 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\b27eaa0c_image_processed.png
+2026-03-19 19:53:04,571 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:53:04,571 [api] INFO: [b27eaa0c] 开始OCR识别...
+2026-03-19 19:53:04,571 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\b27eaa0c_image_processed.png
+2026-03-19 19:53:06,139 [modules.ocr_service] INFO: OCR结果: id='521252401008', confidence=0.8127, 共识别 1 个文本块
+2026-03-19 19:53:06,139 [api] INFO: [b27eaa0c] 开始匹配分析...
+2026-03-19 19:53:06,139 [modules.matching_engine] INFO: 开始匹配: ASR='S21252401' vs OCR='521252401008'
+2026-03-19 19:53:06,140 [api] INFO: [b27eaa0c] 验证完成: verdict=NO_MATCH, confidence=0.1429, time=7883ms
+2026-03-19 19:56:08,467 [api] INFO: [88a4045d] 收到验证请求: audio=recording.webm, image=xuehao.png
+2026-03-19 19:56:08,469 [api] INFO: 保存文件: E:\OCR\uploads\88a4045d_audio.webm (155822 bytes)
+2026-03-19 19:56:08,469 [api] INFO: 保存文件: E:\OCR\uploads\88a4045d_image.png (5047 bytes)
+2026-03-19 19:56:08,469 [api] INFO: [88a4045d] 开始音频处理...
+2026-03-19 19:56:08,470 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\88a4045d_audio.webm
+2026-03-19 19:56:08,562 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 19:56:08,686 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 19:56:08,689 [modules.audio_preprocessor] INFO: 静音裁剪: 9.66s -> 8.13s
+2026-03-19 19:56:08,696 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=8.13s, 采样率=16000Hz
+2026-03-19 19:56:08,697 [api] INFO: [88a4045d] 开始语音识别...
+2026-03-19 19:56:08,697 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\88a4045d_audio_processed.wav
+2026-03-19 19:56:08,895 [faster_whisper] INFO: Processing audio with duration 00:08.128
+2026-03-19 19:56:08,933 [faster_whisper] INFO: VAD filter removed 00:00.528 of audio
+2026-03-19 19:56:14,297 [modules.asr_service] INFO: 转写结果: text='S21252401186。', id='S21252401186'
+2026-03-19 19:56:14,297 [api] INFO: [88a4045d] 开始图像处理...
+2026-03-19 19:56:14,297 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\88a4045d_image.png
+2026-03-19 19:56:14,302 [modules.image_preprocessor] INFO: 放大图像: (387,76) -> (1018,200)
+2026-03-19 19:56:14,309 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\88a4045d_image_processed.png
+2026-03-19 19:56:14,310 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 19:56:14,310 [api] INFO: [88a4045d] 开始OCR识别...
+2026-03-19 19:56:14,310 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\88a4045d_image_processed.png
+2026-03-19 19:56:15,860 [modules.ocr_service] INFO: OCR结果: id='521252401008', confidence=0.8127, 共识别 1 个文本块
+2026-03-19 19:56:15,861 [api] INFO: [88a4045d] 开始匹配分析...
+2026-03-19 19:56:15,861 [modules.matching_engine] INFO: 开始匹配: ASR='S21252401186' vs OCR='521252401008'
+2026-03-19 19:56:15,861 [api] INFO: [88a4045d] 验证完成: verdict=NO_MATCH, confidence=0.1667, time=7393ms
+2026-03-19 20:02:36,218 [api] INFO: [22ce90dc] 收到验证请求: audio=recording.webm, image=xuehao.png
+2026-03-19 20:02:36,218 [api] INFO: 保存文件: E:\OCR\uploads\22ce90dc_audio.webm (180938 bytes)
+2026-03-19 20:02:36,219 [api] INFO: 保存文件: E:\OCR\uploads\22ce90dc_image.png (5006 bytes)
+2026-03-19 20:02:36,219 [api] INFO: [22ce90dc] 开始音频处理...
+2026-03-19 20:02:36,219 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\22ce90dc_audio.webm
+2026-03-19 20:02:36,318 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 20:02:36,450 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 20:02:36,452 [modules.audio_preprocessor] INFO: 静音裁剪: 11.22s -> 9.66s
+2026-03-19 20:02:36,460 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=9.66s, 采样率=16000Hz
+2026-03-19 20:02:36,460 [api] INFO: [22ce90dc] 开始语音识别...
+2026-03-19 20:02:36,460 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\22ce90dc_audio_processed.wav
+2026-03-19 20:02:36,656 [faster_whisper] INFO: Processing audio with duration 00:09.664
+2026-03-19 20:02:36,696 [faster_whisper] INFO: VAD filter removed 00:01.344 of audio
+2026-03-19 20:02:42,055 [modules.asr_service] INFO: 转写结果: text='212552401、008。', id='212552401008'
+2026-03-19 20:02:42,056 [api] INFO: [22ce90dc] 开始图像处理...
+2026-03-19 20:02:42,056 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\22ce90dc_image.png
+2026-03-19 20:02:42,070 [modules.image_preprocessor] INFO: 放大图像: (343,76) -> (902,200)
+2026-03-19 20:02:42,078 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\22ce90dc_image_processed.png
+2026-03-19 20:02:42,078 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 20:02:42,079 [api] INFO: [22ce90dc] 开始OCR识别...
+2026-03-19 20:02:42,079 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\22ce90dc_image_processed.png
+2026-03-19 20:02:43,539 [modules.ocr_service] INFO: OCR结果: id='212524010086', confidence=0.5307, 共识别 1 个文本块
+2026-03-19 20:02:43,539 [api] INFO: [22ce90dc] 开始匹配分析...
+2026-03-19 20:02:43,539 [modules.matching_engine] INFO: 开始匹配: ASR='212552401008' vs OCR='212524010086'
+2026-03-19 20:02:43,540 [api] INFO: [22ce90dc] 验证完成: verdict=PROBABLE_MATCH, confidence=0.4135, time=7322ms
+2026-03-19 20:03:13,656 [api] INFO: [9c76875c] 收到验证请求: audio=recording.webm, image=xuehao.png
+2026-03-19 20:03:13,659 [api] INFO: 保存文件: E:\OCR\uploads\9c76875c_audio.webm (159686 bytes)
+2026-03-19 20:03:13,660 [api] INFO: 保存文件: E:\OCR\uploads\9c76875c_image.png (5006 bytes)
+2026-03-19 20:03:13,661 [api] INFO: [9c76875c] 开始音频处理...
+2026-03-19 20:03:13,661 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\9c76875c_audio.webm
+2026-03-19 20:03:13,770 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 20:03:13,900 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 20:03:13,903 [modules.audio_preprocessor] INFO: 静音裁剪: 9.90s -> 8.16s
+2026-03-19 20:03:13,907 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=8.16s, 采样率=16000Hz
+2026-03-19 20:03:13,907 [api] INFO: [9c76875c] 开始语音识别...
+2026-03-19 20:03:13,908 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\9c76875c_audio_processed.wav
+2026-03-19 20:03:14,084 [faster_whisper] INFO: Processing audio with duration 00:08.160
+2026-03-19 20:03:14,122 [faster_whisper] INFO: VAD filter removed 00:01.136 of audio
+2026-03-19 20:03:19,761 [modules.asr_service] INFO: 转写结果: text='21252401186。', id='21252401186'
+2026-03-19 20:03:19,761 [api] INFO: [9c76875c] 开始图像处理...
+2026-03-19 20:03:19,762 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\9c76875c_image.png
+2026-03-19 20:03:19,765 [modules.image_preprocessor] INFO: 放大图像: (343,76) -> (902,200)
+2026-03-19 20:03:19,777 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\9c76875c_image_processed.png
+2026-03-19 20:03:19,777 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 20:03:19,777 [api] INFO: [9c76875c] 开始OCR识别...
+2026-03-19 20:03:19,778 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\9c76875c_image_processed.png
+2026-03-19 20:03:21,428 [modules.ocr_service] INFO: OCR结果: id='212524010086', confidence=0.5307, 共识别 1 个文本块
+2026-03-19 20:03:21,428 [api] INFO: [9c76875c] 开始匹配分析...
+2026-03-19 20:03:21,428 [modules.matching_engine] INFO: 开始匹配: ASR='21252401186' vs OCR='212524010086'
+2026-03-19 20:03:21,429 [api] INFO: [9c76875c] 验证完成: verdict=PROBABLE_MATCH, confidence=0.3923, time=7772ms
+2026-03-19 20:03:45,349 [api] INFO: [ceeb539d] 收到验证请求: audio=recording.webm, image=xuehao.png
+2026-03-19 20:03:45,350 [api] INFO: 保存文件: E:\OCR\uploads\ceeb539d_audio.webm (159686 bytes)
+2026-03-19 20:03:45,350 [api] INFO: 保存文件: E:\OCR\uploads\ceeb539d_image.png (5006 bytes)
+2026-03-19 20:03:45,350 [api] INFO: [ceeb539d] 开始音频处理...
+2026-03-19 20:03:45,350 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\ceeb539d_audio.webm
+2026-03-19 20:03:45,431 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 20:03:45,568 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 20:03:45,573 [modules.audio_preprocessor] INFO: 静音裁剪: 9.90s -> 8.16s
+2026-03-19 20:03:45,580 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=8.16s, 采样率=16000Hz
+2026-03-19 20:03:45,580 [api] INFO: [ceeb539d] 开始语音识别...
+2026-03-19 20:03:45,580 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\ceeb539d_audio_processed.wav
+2026-03-19 20:03:45,759 [faster_whisper] INFO: Processing audio with duration 00:08.160
+2026-03-19 20:03:45,792 [faster_whisper] INFO: VAD filter removed 00:01.136 of audio
+2026-03-19 20:03:51,693 [modules.asr_service] INFO: 转写结果: text='21252401186。', id='21252401186'
+2026-03-19 20:03:51,693 [api] INFO: [ceeb539d] 开始图像处理...
+2026-03-19 20:03:51,693 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\ceeb539d_image.png
+2026-03-19 20:03:51,697 [modules.image_preprocessor] INFO: 放大图像: (343,76) -> (902,200)
+2026-03-19 20:03:51,709 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\ceeb539d_image_processed.png
+2026-03-19 20:03:51,709 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 20:03:51,709 [api] INFO: [ceeb539d] 开始OCR识别...
+2026-03-19 20:03:51,709 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\ceeb539d_image_processed.png
+2026-03-19 20:03:53,223 [modules.ocr_service] INFO: OCR结果: id='212524010086', confidence=0.5307, 共识别 1 个文本块
+2026-03-19 20:03:53,224 [api] INFO: [ceeb539d] 开始匹配分析...
+2026-03-19 20:03:53,224 [modules.matching_engine] INFO: 开始匹配: ASR='21252401186' vs OCR='212524010086'
+2026-03-19 20:03:53,224 [api] INFO: [ceeb539d] 验证完成: verdict=PROBABLE_MATCH, confidence=0.3923, time=7875ms
+2026-03-19 20:04:08,890 [api] INFO: [ac91f8dc] 收到验证请求: audio=recording.webm, image=xuehao.png
+2026-03-19 20:04:08,891 [api] INFO: 保存文件: E:\OCR\uploads\ac91f8dc_audio.webm (156788 bytes)
+2026-03-19 20:04:08,892 [api] INFO: 保存文件: E:\OCR\uploads\ac91f8dc_image.png (5006 bytes)
+2026-03-19 20:04:08,892 [api] INFO: [ac91f8dc] 开始音频处理...
+2026-03-19 20:04:08,892 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\ac91f8dc_audio.webm
+2026-03-19 20:04:08,977 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 20:04:09,107 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 20:04:09,109 [modules.audio_preprocessor] INFO: 静音裁剪: 9.72s -> 8.29s
+2026-03-19 20:04:09,115 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=8.29s, 采样率=16000Hz
+2026-03-19 20:04:09,116 [api] INFO: [ac91f8dc] 开始语音识别...
+2026-03-19 20:04:09,116 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\ac91f8dc_audio_processed.wav
+2026-03-19 20:04:09,284 [faster_whisper] INFO: Processing audio with duration 00:08.288
+2026-03-19 20:04:09,322 [faster_whisper] INFO: VAD filter removed 00:00.976 of audio
+2026-03-19 20:04:14,903 [modules.asr_service] INFO: 转写结果: text='212524010086。', id='212524010086'
+2026-03-19 20:04:14,903 [api] INFO: [ac91f8dc] 开始图像处理...
+2026-03-19 20:04:14,903 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\ac91f8dc_image.png
+2026-03-19 20:04:14,906 [modules.image_preprocessor] INFO: 放大图像: (343,76) -> (902,200)
+2026-03-19 20:04:14,916 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\ac91f8dc_image_processed.png
+2026-03-19 20:04:14,917 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 20:04:14,917 [api] INFO: [ac91f8dc] 开始OCR识别...
+2026-03-19 20:04:14,917 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\ac91f8dc_image_processed.png
+2026-03-19 20:04:16,366 [modules.ocr_service] INFO: OCR结果: id='212524010086', confidence=0.5307, 共识别 1 个文本块
+2026-03-19 20:04:16,366 [api] INFO: [ac91f8dc] 开始匹配分析...
+2026-03-19 20:04:16,366 [modules.matching_engine] INFO: 开始匹配: ASR='212524010086' vs OCR='212524010086'
+2026-03-19 20:04:16,368 [api] INFO: [ac91f8dc] 验证完成: verdict=MATCH, confidence=0.5307, time=7476ms
+2026-03-19 20:05:51,842 [api] INFO: ============================================================
+2026-03-19 20:05:51,842 [api] INFO: 学生证语音验证系统启动中...
+2026-03-19 20:05:51,842 [api] INFO: ============================================================
+2026-03-19 20:05:51,843 [api] INFO: 预加载 Whisper 模型...
+2026-03-19 20:05:51,843 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-19 20:05:52,794 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-19 20:05:53,546 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-19 20:05:53,547 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-19 20:05:53,547 [api] INFO: 预加载 OCR 模型...
+2026-03-19 20:05:56,437 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-19 20:05:56,437 [api] INFO: OCR 模型加载完成 ✓
+2026-03-19 20:05:56,437 [api] INFO: ============================================================
+2026-03-19 20:05:56,437 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-19 20:05:56,437 [api] INFO: ============================================================
+2026-03-19 20:06:04,256 [api] INFO: [b2600fad] 收到验证请求: audio=recording.webm, image=xuehao.png
+2026-03-19 20:06:04,258 [api] INFO: 保存文件: E:\OCR\uploads\b2600fad_audio.webm (116216 bytes)
+2026-03-19 20:06:04,258 [api] INFO: 保存文件: E:\OCR\uploads\b2600fad_image.png (5006 bytes)
+2026-03-19 20:06:04,258 [api] INFO: [b2600fad] 开始音频处理...
+2026-03-19 20:06:04,258 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\b2600fad_audio.webm
+2026-03-19 20:06:04,333 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-19 20:06:05,946 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-19 20:06:08,436 [modules.audio_preprocessor] INFO: 静音裁剪: 7.20s -> 5.12s
+2026-03-19 20:06:08,440 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=5.12s, 采样率=16000Hz
+2026-03-19 20:06:08,440 [api] INFO: [b2600fad] 开始语音识别...
+2026-03-19 20:06:08,440 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\b2600fad_audio_processed.wav
+2026-03-19 20:06:08,638 [faster_whisper] INFO: Processing audio with duration 00:05.120
+2026-03-19 20:06:08,808 [faster_whisper] INFO: VAD filter removed 00:00.528 of audio
+2026-03-19 20:06:14,713 [modules.asr_service] INFO: 转写结果: text='我的学号是212524010086。', id='212524010086'
+2026-03-19 20:06:14,713 [api] INFO: [b2600fad] 开始图像处理...
+2026-03-19 20:06:14,713 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\b2600fad_image.png
+2026-03-19 20:06:14,729 [modules.image_preprocessor] INFO: 放大图像: (343,76) -> (902,200)
+2026-03-19 20:06:14,942 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\b2600fad_image_processed.png
+2026-03-19 20:06:14,943 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-19 20:06:14,943 [api] INFO: [b2600fad] 开始OCR识别...
+2026-03-19 20:06:14,944 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\b2600fad_image_processed.png
+2026-03-19 20:06:16,542 [modules.ocr_service] INFO: OCR结果: id='212524010086', confidence=0.5307, 共识别 1 个文本块
+2026-03-19 20:06:16,543 [api] INFO: [b2600fad] 开始匹配分析...
+2026-03-19 20:06:16,543 [modules.matching_engine] INFO: 开始匹配: ASR='212524010086' vs OCR='212524010086'
+2026-03-19 20:06:16,544 [api] INFO: [b2600fad] 验证完成: verdict=MATCH, confidence=0.5307, time=12286ms

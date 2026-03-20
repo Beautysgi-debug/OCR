@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生证语音验证系统</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+        .card h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .upload-area {
+            border: 2px dashed #ccc;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-bottom: 15px;
+        }
+        .upload-area:hover { border-color: #667eea; background: #f8f9ff; }
+        .upload-area.has-file { border-color: #52c41a; background: #f6ffed; }
+        .upload-area input { display: none; }
+        .upload-area .icon { font-size: 40px; margin-bottom: 10px; }
+        .upload-area .text { color: #666; font-size: 14px; }
+        .upload-area .filename { color: #52c41a; font-weight: bold; margin-top: 8px; }
+
+        /* 录音按钮 */
+        .record-section { text-align: center; margin: 15px 0; }
+        .record-btn {
+            width: 80px; height: 80px;
+            border-radius: 50%;
+            border: none;
+            background: #ff4757;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255,71,87,0.4);
+        }
+        .record-btn:hover { transform: scale(1.1); }
+        .record-btn.recording {
+            animation: pulse 1s infinite;
+            background: #c0392b;
+        }
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(255,71,87,0.7); }
+            50% { box-shadow: 0 0 0 15px rgba(255,71,87,0); }
+        }
+        .record-status { margin-top: 10px; color: #666; font-size: 14px; }
+
+        /* 预览 */
+        .preview-img {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        audio { width: 100%; margin-top: 10px; }
+
+        /* 按钮 */
+        .btn {
+            display: inline-block;
+            padding: 14px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102,126,234,0.4);
+        }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(102,126,234,0.6); }
+        .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+        .btn-group { text-align: center; margin-top: 20px; }
+
+        /* 选项 */
+        .options { display: flex; gap: 20px; align-items: center; margin-top: 15px; flex-wrap: wrap; }
+        .options label { display: flex; align-items: center; gap: 6px; font-size: 14px; color: #555; }
+
+        /* 结果 */
+        .result-section { display: none; }
+        .result-header {
+            text-align: center;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .result-header.match { background: #f6ffed; border: 2px solid #52c41a; }
+        .result-header.no-match { background: #fff2f0; border: 2px solid #ff4d4f; }
+        .result-header.probable { background: #fffbe6; border: 2px solid #faad14; }
+        .result-header .verdict { font-size: 32px; margin-bottom: 5px; }
+        .result-header .message { font-size: 14px; color: #666; }
+
+        .result-detail {
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 12px;
+        }
+        .result-detail h3 { font-size: 15px; color: #333; margin-bottom: 10px; }
+        .result-detail .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px solid #e8e8e8;
+            font-size: 14px;
+        }
+        .result-detail .row:last-child { border: none; }
+        .result-detail .label { color: #888; }
+        .result-detail .value { color: #333; font-weight: 500; font-family: 'Courier New', monospace; }
+
+        .loading { display: none; text-align: center; padding: 40px; }
+        .spinner {
+            width: 50px; height: 50px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 学生证语音验证系统</h1>
+
+        <!-- 输入区域 -->
+        <div class="card">
+            <h2>📷 上传学生证图片</h2>
+            <div class="upload-area" id="imageUpload" onclick="document.getElementById('imageFile').click()">
+                <input type="file" id="imageFile" accept="image/*" onchange="handleImageUpload(this)">
+                <div class="icon">📄</div>
+                <div class="text">点击或拖拽上传学生证照片</div>
+                <div class="text">支持 JPG, PNG, BMP 格式</div>
+                <div class="filename" id="imageFilename"></div>
+            </div>
+            <img id="imagePreview" class="preview-img" style="display:none;">
+        </div>
+
+        <div class="card">
+            <h2>🎤 录制/上传语音</h2>
+            <div class="record-section">
+                <button class="record-btn" id="recordBtn" onclick="toggleRecording()">🎙️</button>
+                <div class="record-status" id="recordStatus">点击按钮开始录音</div>
+            </div>
+            <div style="text-align:center; margin:10px 0; color:#999;">—— 或 ——</div>
+            <div class="upload-area" id="audioUpload" onclick="document.getElementById('audioFile').click()">
+                <input type="file" id="audioFile" accept="audio/*" onchange="handleAudioUpload(this)">
+                <div class="icon">🔊</div>
+                <div class="text">上传音频文件 (WAV, MP3, M4A)</div>
+                <div class="filename" id="audioFilename"></div>
+            </div>
+            <audio id="audioPreview" controls style="display:none;"></audio>
+        </div>
+
+        <div class="card">
+            <h2>⚙️ 验证选项</h2>
+            <div class="options">
+                <label>
+                    <input type="checkbox" id="useLLM" checked>
+                    启用 LLM 智能分析
+                </label>
+                <label>
+                    语言:
+                    <select id="language">
+                        <option value="zh">中文</option>
+                        <option value="en">English</option>
+                    </select>
+                </label>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-primary" id="verifyBtn" onclick="startVerification()" disabled>
+                    🔍 开始验证
+                </button>
+            </div>
+        </div>
+
+        <!-- 加载 -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <div>正在处理中，请稍候...</div>
+            <div id="loadingStep" style="color:#999; margin-top:10px; font-size:13px;"></div>
+        </div>
+
+        <!-- 结果 -->
+        <div class="result-section" id="resultSection">
+            <div class="card">
+                <div class="result-header" id="resultHeader">
+                    <div class="verdict" id="resultVerdict"></div>
+                    <div class="message" id="resultMessage"></div>
+                </div>
+
+                <div class="result-detail">
+                    <h3>🎤 语音识别结果</h3>
+                    <div class="row"><span class="label">转写文本</span><span class="value" id="asrText">-</span></div>
+                    <div class="row"><span class="label">提取学号</span><span class="value" id="asrId">-</span></div>
+                    <div class="row"><span class="label">置信度</span><span class="value" id="asrConf">-</span></div>
+                </div>
+
+                <div class="result-detail">
+                    <h3>📷 OCR识别结果</h3>
+                    <div class="row"><span class="label">提取学号</span><span class="value" id="ocrId">-</span></div>
+                    <div class="row"><span class="label">置信度</span><span class="value" id="ocrConf">-</span></div>
+                    <div class="row"><span class="label">OCR引擎</span><span class="value" id="ocrEngine">-</span></div>
+                </div>
+
+                <div class="result-detail">
+                    <h3>🔗 匹配分析</h3>
+                    <div class="row"><span class="label">相似度</span><span class="value" id="similarity">-</span></div>
+                    <div class="row"><span class="label">编辑距离</span><span class="value" id="editDist">-</span></div>
+                    <div class="row"><span class="label">分析详情</span><span class="value" id="matchDetails">-</span></div>
+                </div>
+
+                <div class="result-detail" id="llmSection" style="display:none;">
+                    <h3>🤖 LLM智能分析</h3>
+                    <div class="row"><span class="label">LLM判定</span><span class="value" id="llmVerdict">-</span></div>
+                    <div class="row"><span class="label">置信度</span><span class="value" id="llmConf">-</span></div>
+                    <div class="row"><span class="label">分析理由</span><span class="value" id="llmReason" style="max-width:500px;word-wrap:break-word;">-</span></div>
+                    <div class="row"><span class="label">建议</span><span class="value" id="llmSuggestion">-</span></div>
+                </div>
+
+                <div class="result-detail">
+                    <h3>⏱️ 性能信息</h3>
+                    <div class="row"><span class="label">处理耗时</span><span class="value" id="processTime">-</span></div>
+                    <div class="row"><span class="label">请求ID</span><span class="value" id="requestId">-</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let mediaRecorder = null;
+        let audioChunks = [];
+        let audioBlob = null;
+        let imageFile = null;
+        let isRecording = false;
+
+        function handleImageUpload(input) {
+            if (input.files.length > 0) {
+                imageFile = input.files[0];
+                document.getElementById('imageFilename').textContent = imageFile.name;
+                document.getElementById('imageUpload').classList.add('has-file');
+                const reader = new FileReader();
+                reader.onload = e => {
+                    document.getElementById('imagePreview').src = e.target.result;
+                    document.getElementById('imagePreview').style.display = 'block';
+                };
+                reader.readAsDataURL(imageFile);
+                checkReady();
+            }
+        }
+
+        function handleAudioUpload(input) {
+            if (input.files.length > 0) {
+                audioBlob = input.files[0];
+                document.getElementById('audioFilename').textContent = audioBlob.name;
+                document.getElementById('audioUpload').classList.add('has-file');
+                const url = URL.createObjectURL(audioBlob);
+                document.getElementById('audioPreview').src = url;
+                document.getElementById('audioPreview').style.display = 'block';
+                document.getElementById('recordStatus').textContent = '已上传音频文件';
+                checkReady();
+            }
+        }
+
+        async function toggleRecording() {
+            if (!isRecording) {
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    mediaRecorder = new MediaRecorder(stream);
+                    audioChunks = [];
+                    mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
+                    mediaRecorder.onstop = () => {
+                        audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+                        const url = URL.createObjectURL(audioBlob);
+                        document.getElementById('audioPreview').src = url;
+                        document.getElementById('audioPreview').style.display = 'block';
+                        stream.getTracks().forEach(t => t.stop());
+                        checkReady();
+                    };
+                    mediaRecorder.start();
+                    isRecording = true;
+                    document.getElementById('recordBtn').classList.add('recording');
+                    document.getElementById('recordBtn').textContent = '⏹️';
+                    document.getElementById('recordStatus').textContent = '正在录音...请朗读您的学号';
+                } catch(err) {
+                    alert('无法访问麦克风: ' + err.message);
+                }
+            } else {
+                mediaRecorder.stop();
+                isRecording = false;
+                document.getElementById('recordBtn').classList.remove('recording');
+                document.getElementById('recordBtn').textContent = '🎙️';
+                document.getElementById('recordStatus').textContent = '录音完成 ✓';
+            }
+        }
+
+        function checkReady() {
+            document.getElementById('verifyBtn').disabled = !(imageFile && audioBlob);
+        }
+
+        async function startVerification() {
+            if (!imageFile || !audioBlob) { alert('请上传图片和音频'); return; }
+
+            document.getElementById('resultSection').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('verifyBtn').disabled = true;
+            document.getElementById('loadingStep').textContent = '上传文件中...';
+
+            const formData = new FormData();
+            formData.append('image', imageFile);
+            formData.append('audio', audioBlob, audioBlob.name || 'recording.webm');
+            formData.append('use_llm', document.getElementById('useLLM').checked);
+            formData.append('language', document.getElementById('language').value);
+
+            try {
+                document.getElementById('loadingStep').textContent = '处理中...语音识别+OCR+匹配分析';
+                const response = await fetch('/api/verify', { method: 'POST', body: formData });
+                if (!response.ok) {
+                    const err = await response.json();
+                    throw new Error(err.detail || '请求失败');
+                }
+                const data = await response.json();
+                displayResult(data);
+            } catch(err) {
+                alert('验证失败: ' + err.message);
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('verifyBtn').disabled = false;
+            }
+        }
+
+        function displayResult(data) {
+            document.getElementById('resultSection').style.display = 'block';
+            const header = document.getElementById('resultHeader');
+            header.className = 'result-header';
+
+            if (data.final_verdict === 'MATCH') {
+                header.classList.add('match');
+                document.getElementById('resultVerdict').textContent = '✅ 验证通过';
+            } else if (data.final_verdict === 'PROBABLE_MATCH') {
+                header.classList.add('probable');
+                document.getElementById('resultVerdict').textContent = '⚠️ 可能匹配';
+            } else {
+                header.classList.add('no-match');
+                document.getElementById('resultVerdict').textContent = '❌ 验证失败';
+            }
+            document.getElementById('resultMessage').textContent = data.message;
+
+            // ASR
+            document.getElementById('asrText').textContent = data.asr_result?.raw_text || '-';
+            document.getElementById('asrId').textContent = data.asr_result?.extracted_id || '-';
+            document.getElementById('asrConf').textContent = ((data.asr_result?.confidence || 0) * 100).toFixed(1) + '%';
+
+            // OCR
+            document.getElementById('ocrId').textContent = data.ocr_result?.extracted_id || '-';
+            document.getElementById('ocrConf').textContent = ((data.ocr_result?.confidence || 0) * 100).toFixed(1) + '%';
+            document.getElementById('ocrEngine').textContent = data.ocr_result?.engine || '-';
+
+            // Matching
+            document.getElementById('similarity').textContent = ((data.matching_result?.similarity || 0) * 100).toFixed(1) + '%';
+            document.getElementById('editDist').textContent = data.matching_result?.edit_distance ?? '-';
+            document.getElementById('matchDetails').textContent = data.matching_result?.details || '-';
+
+            // LLM
+            if (data.llm_result && !data.llm_result.error) {
+                document.getElementById('llmSection').style.display = 'block';
+                document.getElementById('llmVerdict').textContent = data.llm_result.is_match ? '✅ 匹配' : '❌ 不匹配';
+                document.getElementById('llmConf').textContent = (data.llm_result.confidence || 0) + '%';
+                document.getElementById('llmReason').textContent = data.llm_result.reasoning || '-';
+                document.getElementById('llmSuggestion').textContent = data.llm_result.suggestion || '-';
+            } else {
+                document.getElementById('llmSection').style.display = 'none';
+            }
+
+            // Performance
+            document.getElementById('processTime').textContent = data.processing_time_ms + 'ms';
+            document.getElementById('requestId').textContent = data.request_id;
+
+            document.getElementById('resultSection').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
