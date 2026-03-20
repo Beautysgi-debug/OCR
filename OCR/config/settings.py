@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 @dataclass
 class LLMConfig:
-    api_key: str = "sk-d042a13c89ce4e55ab2a1b0267aeaed2"
+    api_key: str = "sk"
 
 @dataclass
 class WhisperConfig:
