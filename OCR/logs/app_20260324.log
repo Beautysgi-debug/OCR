@@ -1,0 +1,100 @@
+2026-03-24 14:40:24,032 [api] INFO: ============================================================
+2026-03-24 14:40:24,032 [api] INFO: 学生证语音验证系统启动中...
+2026-03-24 14:40:24,032 [api] INFO: ============================================================
+2026-03-24 14:40:24,032 [api] INFO: 预加载 Whisper 模型...
+2026-03-24 14:40:24,032 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-24 14:40:28,823 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-24 14:40:29,764 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-24 14:40:29,764 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-24 14:40:29,764 [api] INFO: 预加载 OCR 模型...
+2026-03-24 14:40:34,411 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-24 14:40:34,411 [api] INFO: OCR 模型加载完成 ✓
+2026-03-24 14:40:34,411 [api] INFO: ============================================================
+2026-03-24 14:40:34,411 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-24 14:40:34,411 [api] INFO: ============================================================
+2026-03-24 14:42:16,615 [api] INFO: [3c001325] 收到验证请求: audio=recording.webm, image=camera_capture.jpg
+2026-03-24 14:42:16,615 [api] INFO: 保存文件: E:\OCR\uploads\3c001325_audio.webm (28310 bytes)
+2026-03-24 14:42:16,616 [api] INFO: 保存文件: E:\OCR\uploads\3c001325_image.jpg (172058 bytes)
+2026-03-24 14:42:16,616 [api] INFO: [3c001325] 开始音频处理...
+2026-03-24 14:42:16,616 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\3c001325_audio.webm
+2026-03-24 14:42:17,323 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-24 14:42:20,394 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-24 14:42:30,769 [modules.audio_preprocessor] INFO: 静音裁剪: 1.74s -> 1.54s
+2026-03-24 14:42:30,774 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=1.54s, 采样率=16000Hz
+2026-03-24 14:42:30,774 [api] INFO: [3c001325] 开始语音识别...
+2026-03-24 14:42:30,774 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\3c001325_audio_processed.wav
+2026-03-24 14:42:30,965 [faster_whisper] INFO: Processing audio with duration 00:01.536
+2026-03-24 14:42:31,242 [faster_whisper] INFO: VAD filter removed 00:00.000 of audio
+2026-03-24 14:42:33,402 [modules.asr_service] INFO: 转写结果: text='', id=''
+2026-03-24 14:42:33,402 [api] INFO: [3c001325] 开始图像处理...
+2026-03-24 14:42:33,402 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\3c001325_image.jpg
+2026-03-24 14:42:33,550 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\3c001325_image_processed.png
+2026-03-24 14:42:33,551 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-24 14:42:33,551 [api] INFO: [3c001325] 开始OCR识别...
+2026-03-24 14:42:33,551 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\3c001325_image_processed.png
+2026-03-24 14:42:35,930 [modules.ocr_service] INFO: OCR结果: id='10460352484', confidence=0.9999, 共识别 11 个文本块
+2026-03-24 14:42:35,930 [api] INFO: [3c001325] 开始匹配分析...
+2026-03-24 14:42:35,930 [modules.matching_engine] INFO: 开始匹配: ASR='' vs OCR='10460352484'
+2026-03-24 14:42:35,931 [api] INFO: [3c001325] 验证完成: verdict=ERROR, confidence=0.0000, time=19314ms
+2026-03-24 14:54:48,180 [api] INFO: [c0d04a4d] 收到验证请求: audio=recording.webm, image=camera_capture.jpg
+2026-03-24 14:54:48,183 [api] INFO: 保存文件: E:\OCR\uploads\c0d04a4d_audio.webm (106556 bytes)
+2026-03-24 14:54:48,184 [api] INFO: 保存文件: E:\OCR\uploads\c0d04a4d_image.jpg (122400 bytes)
+2026-03-24 14:54:48,184 [api] INFO: [c0d04a4d] 开始音频处理...
+2026-03-24 14:54:48,185 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\c0d04a4d_audio.webm
+2026-03-24 14:54:48,818 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-24 14:54:48,925 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-24 14:54:48,927 [modules.audio_preprocessor] INFO: 静音裁剪: 6.60s -> 6.56s
+2026-03-24 14:54:48,935 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=6.56s, 采样率=16000Hz
+2026-03-24 14:54:48,935 [api] INFO: [c0d04a4d] 开始语音识别...
+2026-03-24 14:54:48,935 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\c0d04a4d_audio_processed.wav
+2026-03-24 14:54:49,139 [faster_whisper] INFO: Processing audio with duration 00:06.560
+2026-03-24 14:54:49,160 [faster_whisper] INFO: VAD filter removed 00:00.048 of audio
+2026-03-24 14:54:54,664 [modules.asr_service] INFO: 转写结果: text='1046035284', id='1046035284'
+2026-03-24 14:54:54,664 [api] INFO: [c0d04a4d] 开始图像处理...
+2026-03-24 14:54:54,664 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\c0d04a4d_image.jpg
+2026-03-24 14:54:54,779 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\c0d04a4d_image_processed.png
+2026-03-24 14:54:54,780 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-24 14:54:54,780 [api] INFO: [c0d04a4d] 开始OCR识别...
+2026-03-24 14:54:54,780 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\c0d04a4d_image_processed.png
+2026-03-24 14:55:01,985 [modules.ocr_service] INFO: OCR结果: id='10460352484', confidence=0.5481, 共识别 10 个文本块
+2026-03-24 14:55:01,985 [api] INFO: [c0d04a4d] 开始匹配分析...
+2026-03-24 14:55:01,985 [modules.matching_engine] INFO: 开始匹配: ASR='1046035284' vs OCR='10460352484'
+2026-03-24 14:55:01,986 [api] INFO: [c0d04a4d] 验证完成: verdict=PROBABLE_MATCH, confidence=0.4437, time=13805ms
+2026-03-24 14:58:37,545 [api] INFO: [2a3aea73] 收到验证请求: audio=recording.webm, image=camera_capture.jpg
+2026-03-24 14:58:37,546 [api] INFO: 保存文件: E:\OCR\uploads\2a3aea73_audio.webm (98828 bytes)
+2026-03-24 14:58:37,546 [api] INFO: 保存文件: E:\OCR\uploads\2a3aea73_image.jpg (169149 bytes)
+2026-03-24 14:58:37,546 [api] INFO: [2a3aea73] 开始音频处理...
+2026-03-24 14:58:37,546 [modules.audio_preprocessor] INFO: 开始处理音频: E:\OCR\uploads\2a3aea73_audio.webm
+2026-03-24 14:58:37,630 [modules.audio_preprocessor] INFO: 格式转换: .webm -> .wav
+2026-03-24 14:58:37,682 [modules.audio_preprocessor] INFO: 降噪处理完成
+2026-03-24 14:58:37,683 [modules.audio_preprocessor] INFO: 静音裁剪: 6.12s -> 5.76s
+2026-03-24 14:58:37,686 [modules.audio_preprocessor] INFO: 音频处理完成: 时长=5.76s, 采样率=16000Hz
+2026-03-24 14:58:37,686 [api] INFO: [2a3aea73] 开始语音识别...
+2026-03-24 14:58:37,686 [modules.asr_service] INFO: 开始转写音频: C:\Users\咕咕\AppData\Local\Temp\2a3aea73_audio_processed.wav
+2026-03-24 14:58:37,829 [faster_whisper] INFO: Processing audio with duration 00:05.760
+2026-03-24 14:58:37,838 [faster_whisper] INFO: VAD filter removed 00:00.000 of audio
+2026-03-24 14:58:39,876 [modules.asr_service] INFO: 转写结果: text='10460352704', id='10460352704'
+2026-03-24 14:58:39,876 [api] INFO: [2a3aea73] 开始图像处理...
+2026-03-24 14:58:39,876 [modules.image_preprocessor] INFO: 开始处理图像: E:\OCR\uploads\2a3aea73_image.jpg
+2026-03-24 14:58:39,949 [modules.image_preprocessor] INFO: 图像已保存: E:\OCR\uploads\2a3aea73_image_processed.png
+2026-03-24 14:58:39,949 [modules.image_preprocessor] INFO: 图像处理完成
+2026-03-24 14:58:39,949 [api] INFO: [2a3aea73] 开始OCR识别...
+2026-03-24 14:58:39,949 [modules.ocr_service] INFO: 开始OCR识别: E:\OCR\uploads\2a3aea73_image_processed.png
+2026-03-24 14:58:42,204 [modules.ocr_service] INFO: OCR结果: id='10460352704', confidence=0.6259, 共识别 9 个文本块
+2026-03-24 14:58:42,204 [api] INFO: [2a3aea73] 开始匹配分析...
+2026-03-24 14:58:42,204 [modules.matching_engine] INFO: 开始匹配: ASR='10460352704' vs OCR='10460352704'
+2026-03-24 14:58:42,204 [api] INFO: [2a3aea73] 验证完成: verdict=MATCH, confidence=0.5080, time=4658ms
+2026-03-24 15:11:22,743 [api] INFO: ============================================================
+2026-03-24 15:11:22,743 [api] INFO: 学生证语音验证系统启动中...
+2026-03-24 15:11:22,743 [api] INFO: ============================================================
+2026-03-24 15:11:22,743 [api] INFO: 预加载 Whisper 模型...
+2026-03-24 15:11:22,743 [modules.asr_service] INFO: 正在加载 Whisper 模型: small
+2026-03-24 15:11:26,774 [httpx] INFO: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+2026-03-24 15:11:27,531 [modules.asr_service] INFO: faster-whisper 加载成功 (device=cpu)
+2026-03-24 15:11:27,531 [api] INFO: Whisper 模型加载完成 ✓
+2026-03-24 15:11:27,531 [api] INFO: 预加载 OCR 模型...
+2026-03-24 15:11:31,499 [modules.ocr_service] INFO: EasyOCR 加载成功
+2026-03-24 15:11:31,499 [api] INFO: OCR 模型加载完成 ✓
+2026-03-24 15:11:31,499 [api] INFO: ============================================================
+2026-03-24 15:11:31,499 [api] INFO: 服务就绪: http://0.0.0.0:8000
+2026-03-24 15:11:31,499 [api] INFO: ============================================================
