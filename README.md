@@ -1,3 +1,3 @@
 # OCR
-run main.py
+run main.py  
 localhost:8000
